@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05BB4CD5360143A2B541C84 /* Pods_SkincareDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8273F86672D120E6C28408FE /* Pods_SkincareDiary.framework */; };
+		C907FE301C47A47300F7AFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907FE2F1C47A47300F7AFD1 /* AppDelegate.swift */; };
+		C907FE321C47A47300F7AFD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907FE311C47A47300F7AFD1 /* ViewController.swift */; };
+		C907FE351C47A47300F7AFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C907FE331C47A47300F7AFD1 /* Main.storyboard */; };
+		C907FE381C47A47300F7AFD1 /* SkincareDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C907FE361C47A47300F7AFD1 /* SkincareDiary.xcdatamodeld */; };
+		C907FE3A1C47A47300F7AFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C907FE391C47A47300F7AFD1 /* Assets.xcassets */; };
+		C907FE3D1C47A47300F7AFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C907FE3B1C47A47300F7AFD1 /* LaunchScreen.storyboard */; };
+		C907FE481C47A47300F7AFD1 /* SkincareDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907FE471C47A47300F7AFD1 /* SkincareDiaryTests.swift */; };
+		C907FE531C47A47300F7AFD1 /* SkincareDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907FE521C47A47300F7AFD1 /* SkincareDiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C907FE441C47A47300F7AFD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C907FE241C47A47300F7AFD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C907FE2B1C47A47300F7AFD1;
+			remoteInfo = SkincareDiary;
+		};
+		C907FE4F1C47A47300F7AFD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C907FE241C47A47300F7AFD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C907FE2B1C47A47300F7AFD1;
+			remoteInfo = SkincareDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74982960199A78F5F1001733 /* Pods-SkincareDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkincareDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkincareDiary/Pods-SkincareDiary.release.xcconfig"; sourceTree = "<group>"; };
+		8273F86672D120E6C28408FE /* Pods_SkincareDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkincareDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907FE2C1C47A47300F7AFD1 /* SkincareDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkincareDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907FE2F1C47A47300F7AFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C907FE311C47A47300F7AFD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C907FE341C47A47300F7AFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C907FE371C47A47300F7AFD1 /* SkincareDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkincareDiary.xcdatamodel; sourceTree = "<group>"; };
+		C907FE391C47A47300F7AFD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C907FE3C1C47A47300F7AFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C907FE3E1C47A47300F7AFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C907FE431C47A47300F7AFD1 /* SkincareDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkincareDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907FE471C47A47300F7AFD1 /* SkincareDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkincareDiaryTests.swift; sourceTree = "<group>"; };
+		C907FE491C47A47300F7AFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C907FE4E1C47A47300F7AFD1 /* SkincareDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkincareDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C907FE521C47A47300F7AFD1 /* SkincareDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkincareDiaryUITests.swift; sourceTree = "<group>"; };
+		C907FE541C47A47300F7AFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38E0BA265DD72653C49C6D6 /* Pods-SkincareDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkincareDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkincareDiary/Pods-SkincareDiary.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C907FE291C47A47300F7AFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05BB4CD5360143A2B541C84 /* Pods_SkincareDiary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C907FE401C47A47300F7AFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C907FE4B1C47A47300F7AFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		935900E8AA96F9681B03E9DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D38E0BA265DD72653C49C6D6 /* Pods-SkincareDiary.debug.xcconfig */,
+				74982960199A78F5F1001733 /* Pods-SkincareDiary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C907FE231C47A47300F7AFD1 = {
+			isa = PBXGroup;
+			children = (
+				C907FE2E1C47A47300F7AFD1 /* SkincareDiary */,
+				C907FE461C47A47300F7AFD1 /* SkincareDiaryTests */,
+				C907FE511C47A47300F7AFD1 /* SkincareDiaryUITests */,
+				C907FE2D1C47A47300F7AFD1 /* Products */,
+				935900E8AA96F9681B03E9DA /* Pods */,
+				D90466E18BFD84A5FA908CBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C907FE2D1C47A47300F7AFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C907FE2C1C47A47300F7AFD1 /* SkincareDiary.app */,
+				C907FE431C47A47300F7AFD1 /* SkincareDiaryTests.xctest */,
+				C907FE4E1C47A47300F7AFD1 /* SkincareDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C907FE2E1C47A47300F7AFD1 /* SkincareDiary */ = {
+			isa = PBXGroup;
+			children = (
+				C907FE2F1C47A47300F7AFD1 /* AppDelegate.swift */,
+				C907FE311C47A47300F7AFD1 /* ViewController.swift */,
+				C907FE331C47A47300F7AFD1 /* Main.storyboard */,
+				C907FE391C47A47300F7AFD1 /* Assets.xcassets */,
+				C907FE3B1C47A47300F7AFD1 /* LaunchScreen.storyboard */,
+				C907FE3E1C47A47300F7AFD1 /* Info.plist */,
+				C907FE361C47A47300F7AFD1 /* SkincareDiary.xcdatamodeld */,
+			);
+			path = SkincareDiary;
+			sourceTree = "<group>";
+		};
+		C907FE461C47A47300F7AFD1 /* SkincareDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C907FE471C47A47300F7AFD1 /* SkincareDiaryTests.swift */,
+				C907FE491C47A47300F7AFD1 /* Info.plist */,
+			);
+			path = SkincareDiaryTests;
+			sourceTree = "<group>";
+		};
+		C907FE511C47A47300F7AFD1 /* SkincareDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C907FE521C47A47300F7AFD1 /* SkincareDiaryUITests.swift */,
+				C907FE541C47A47300F7AFD1 /* Info.plist */,
+			);
+			path = SkincareDiaryUITests;
+			sourceTree = "<group>";
+		};
+		D90466E18BFD84A5FA908CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8273F86672D120E6C28408FE /* Pods_SkincareDiary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C907FE2B1C47A47300F7AFD1 /* SkincareDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C907FE571C47A47300F7AFD1 /* Build configuration list for PBXNativeTarget "SkincareDiary" */;
+			buildPhases = (
+				3E55BAA34A943CA148C46EF3 /* Check Pods Manifest.lock */,
+				C907FE281C47A47300F7AFD1 /* Sources */,
+				C907FE291C47A47300F7AFD1 /* Frameworks */,
+				C907FE2A1C47A47300F7AFD1 /* Resources */,
+				ABC4A949EEEC88B2D43EA913 /* Embed Pods Frameworks */,
+				B0338BBB3C4ED96E40D1FCF9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkincareDiary;
+			productName = SkincareDiary;
+			productReference = C907FE2C1C47A47300F7AFD1 /* SkincareDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C907FE421C47A47300F7AFD1 /* SkincareDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C907FE5A1C47A47300F7AFD1 /* Build configuration list for PBXNativeTarget "SkincareDiaryTests" */;
+			buildPhases = (
+				C907FE3F1C47A47300F7AFD1 /* Sources */,
+				C907FE401C47A47300F7AFD1 /* Frameworks */,
+				C907FE411C47A47300F7AFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C907FE451C47A47300F7AFD1 /* PBXTargetDependency */,
+			);
+			name = SkincareDiaryTests;
+			productName = SkincareDiaryTests;
+			productReference = C907FE431C47A47300F7AFD1 /* SkincareDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C907FE4D1C47A47300F7AFD1 /* SkincareDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C907FE5D1C47A47300F7AFD1 /* Build configuration list for PBXNativeTarget "SkincareDiaryUITests" */;
+			buildPhases = (
+				C907FE4A1C47A47300F7AFD1 /* Sources */,
+				C907FE4B1C47A47300F7AFD1 /* Frameworks */,
+				C907FE4C1C47A47300F7AFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C907FE501C47A47300F7AFD1 /* PBXTargetDependency */,
+			);
+			name = SkincareDiaryUITests;
+			productName = SkincareDiaryUITests;
+			productReference = C907FE4E1C47A47300F7AFD1 /* SkincareDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C907FE241C47A47300F7AFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mobinaut;
+				TargetAttributes = {
+					C907FE2B1C47A47300F7AFD1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C907FE421C47A47300F7AFD1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C907FE2B1C47A47300F7AFD1;
+					};
+					C907FE4D1C47A47300F7AFD1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C907FE2B1C47A47300F7AFD1;
+					};
+				};
+			};
+			buildConfigurationList = C907FE271C47A47300F7AFD1 /* Build configuration list for PBXProject "SkincareDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C907FE231C47A47300F7AFD1;
+			productRefGroup = C907FE2D1C47A47300F7AFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C907FE2B1C47A47300F7AFD1 /* SkincareDiary */,
+				C907FE421C47A47300F7AFD1 /* SkincareDiaryTests */,
+				C907FE4D1C47A47300F7AFD1 /* SkincareDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C907FE2A1C47A47300F7AFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907FE3D1C47A47300F7AFD1 /* LaunchScreen.storyboard in Resources */,
+				C907FE3A1C47A47300F7AFD1 /* Assets.xcassets in Resources */,
+				C907FE351C47A47300F7AFD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C907FE411C47A47300F7AFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C907FE4C1C47A47300F7AFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E55BAA34A943CA148C46EF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC4A949EEEC88B2D43EA913 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkincareDiary/Pods-SkincareDiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0338BBB3C4ED96E40D1FCF9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkincareDiary/Pods-SkincareDiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C907FE281C47A47300F7AFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907FE381C47A47300F7AFD1 /* SkincareDiary.xcdatamodeld in Sources */,
+				C907FE321C47A47300F7AFD1 /* ViewController.swift in Sources */,
+				C907FE301C47A47300F7AFD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C907FE3F1C47A47300F7AFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907FE481C47A47300F7AFD1 /* SkincareDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C907FE4A1C47A47300F7AFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907FE531C47A47300F7AFD1 /* SkincareDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C907FE451C47A47300F7AFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C907FE2B1C47A47300F7AFD1 /* SkincareDiary */;
+			targetProxy = C907FE441C47A47300F7AFD1 /* PBXContainerItemProxy */;
+		};
+		C907FE501C47A47300F7AFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C907FE2B1C47A47300F7AFD1 /* SkincareDiary */;
+			targetProxy = C907FE4F1C47A47300F7AFD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C907FE331C47A47300F7AFD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C907FE341C47A47300F7AFD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C907FE3B1C47A47300F7AFD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C907FE3C1C47A47300F7AFD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C907FE551C47A47300F7AFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C907FE561C47A47300F7AFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C907FE581C47A47300F7AFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38E0BA265DD72653C49C6D6 /* Pods-SkincareDiary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkincareDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobinautsoftware.SkincareDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C907FE591C47A47300F7AFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74982960199A78F5F1001733 /* Pods-SkincareDiary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkincareDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobinautsoftware.SkincareDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C907FE5B1C47A47300F7AFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkincareDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobinautsoftware.SkincareDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkincareDiary.app/SkincareDiary";
+			};
+			name = Debug;
+		};
+		C907FE5C1C47A47300F7AFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkincareDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobinautsoftware.SkincareDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkincareDiary.app/SkincareDiary";
+			};
+			name = Release;
+		};
+		C907FE5E1C47A47300F7AFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkincareDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobinautsoftware.SkincareDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkincareDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C907FE5F1C47A47300F7AFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkincareDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobinautsoftware.SkincareDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkincareDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C907FE271C47A47300F7AFD1 /* Build configuration list for PBXProject "SkincareDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907FE551C47A47300F7AFD1 /* Debug */,
+				C907FE561C47A47300F7AFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C907FE571C47A47300F7AFD1 /* Build configuration list for PBXNativeTarget "SkincareDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907FE581C47A47300F7AFD1 /* Debug */,
+				C907FE591C47A47300F7AFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C907FE5A1C47A47300F7AFD1 /* Build configuration list for PBXNativeTarget "SkincareDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907FE5B1C47A47300F7AFD1 /* Debug */,
+				C907FE5C1C47A47300F7AFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C907FE5D1C47A47300F7AFD1 /* Build configuration list for PBXNativeTarget "SkincareDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907FE5E1C47A47300F7AFD1 /* Debug */,
+				C907FE5F1C47A47300F7AFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C907FE361C47A47300F7AFD1 /* SkincareDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C907FE371C47A47300F7AFD1 /* SkincareDiary.xcdatamodel */,
+			);
+			currentVersion = C907FE371C47A47300F7AFD1 /* SkincareDiary.xcdatamodel */;
+			path = SkincareDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C907FE241C47A47300F7AFD1 /* Project object */;
+}
