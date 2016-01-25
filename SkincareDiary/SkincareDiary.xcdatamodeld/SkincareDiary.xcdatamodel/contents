@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
     <entity name="Day" syncable="YES">
-        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="days" inverseEntity="Product" syncable="YES"/>
         <relationship name="ratings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rating" inverseName="day" inverseEntity="Rating" syncable="YES"/>
     </entity>
@@ -18,7 +20,7 @@
         <relationship name="day" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="ratings" inverseEntity="Day" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Day" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Day" positionX="-63" positionY="-18" width="128" height="120"/>
         <element name="Product" positionX="-45" positionY="0" width="128" height="105"/>
         <element name="Rating" positionX="-27" positionY="45" width="128" height="105"/>
     </elements>

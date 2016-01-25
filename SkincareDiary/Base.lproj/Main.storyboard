@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -22,7 +22,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="mainSegueIdentifier" value="main"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="drawerSegueIdentifier" value="drawer"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="drawerWidth">
-                            <real key="value" value="320"/>
+                            <real key="value" value="240"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
@@ -32,21 +32,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="269.33333333333331" y="398.07333333333332"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="7rR-ql-gxv">
             <objects>
                 <tableViewController id="dpA-sx-wPd" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rV9-2s-pcb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HFN-EK-h4s">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HFN-EK-h4s" id="ZUW-UT-x2n">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -60,7 +61,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7B-Ik-3Qb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2089" y="131"/>
+            <point key="canvasLocation" x="1238.9333333333334" y="200.69333333333333"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EPg-55-d5w">
@@ -76,26 +77,69 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NrI-W4-H3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269" y="131"/>
+            <point key="canvasLocation" x="801.60000000000002" y="200.69333333333333"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Navigation Drawer View Controller-->
         <scene sceneID="kp5-du-2sO">
             <objects>
-                <tableViewController id="lSd-oL-WmO" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="8K5-4e-59M">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <tableViewController id="lSd-oL-WmO" customClass="NavigationDrawerViewController" customModule="SkincareDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="8K5-4e-59M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dwp-4b-Qg3">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="navHeader" rowHeight="200" id="dwp-4b-Qg3" customClass="NavHeaderCell" customModule="SkincareDiary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="320" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dwp-4b-Qg3" id="DgD-jy-w8M">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Skincare Diary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsP-p3-BIu">
+                                            <rect key="frame" x="10" y="75" width="380" height="49"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="KsP-p3-BIu" secondAttribute="bottom" constant="75" id="EP1-oW-Agz"/>
+                                        <constraint firstItem="KsP-p3-BIu" firstAttribute="leading" secondItem="DgD-jy-w8M" secondAttribute="leading" constant="10" id="raa-FY-7IZ"/>
+                                        <constraint firstItem="KsP-p3-BIu" firstAttribute="top" secondItem="DgD-jy-w8M" secondAttribute="top" constant="75" id="wno-Y2-wKh"/>
+                                        <constraint firstAttribute="trailing" secondItem="KsP-p3-BIu" secondAttribute="trailing" constant="10" id="wwl-05-FME"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleLabel" destination="KsP-p3-BIu" id="EMn-u7-IMS"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="navRow" id="lyV-Jb-avl" customClass="NavRowCell" customModule="SkincareDiary" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="250" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lyV-Jb-avl" id="BJD-fd-vOl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCL-cW-O9p">
+                                            <rect key="frame" x="20" y="10" width="360" height="23"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="UCL-cW-O9p" secondAttribute="bottom" constant="10" id="Fpg-vN-UAb"/>
+                                        <constraint firstItem="UCL-cW-O9p" firstAttribute="leading" secondItem="BJD-fd-vOl" secondAttribute="leading" constant="20" id="Ou6-ca-T9a"/>
+                                        <constraint firstAttribute="trailing" secondItem="UCL-cW-O9p" secondAttribute="trailing" constant="20" id="Vz6-4F-UiH"/>
+                                        <constraint firstItem="UCL-cW-O9p" firstAttribute="top" secondItem="BJD-fd-vOl" secondAttribute="top" constant="10" id="l6v-Qx-zrn"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleLabel" destination="UCL-cW-O9p" id="8Ox-WX-iTF"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="lSd-oL-WmO" id="3Zc-lq-h7y"/>
                             <outlet property="delegate" destination="lSd-oL-WmO" id="a4J-s3-Hv3"/>
@@ -104,7 +148,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3lL-nl-Kmy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269" y="903"/>
+            <point key="canvasLocation" x="801.60000000000002" y="1080.1466666666668"/>
         </scene>
     </scenes>
 </document>

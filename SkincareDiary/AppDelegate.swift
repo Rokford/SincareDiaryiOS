@@ -13,10 +13,60 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    static let navArray:[String] = ["Calendar", "Products", "Charts", "About"]
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        let managedContext = self.managedObjectContext
+        
+        let currentDate = NSDate()
+        let calendar = NSCalendar.currentCalendar()
+        
+        let components = calendar.components([.Year, .Month, .Day], fromDate: currentDate)
+        
+        let fetchRequest = NSFetchRequest(entityName: "Day")
+        
+        let predicate = NSPredicate(format: "day ==  \(components.day) AND month == \(components.month) AND year == \(components.year)")
+        
+        fetchRequest.predicate = predicate
+        
+        var fetchedDays = [NSManagedObject]()
+        
+        do{
+            fetchedDays = try managedContext.executeFetchRequest(fetchRequest) as! [NSManagedObject]
+        }
+        catch
+        {
+            fatalError("Failed fetching Days: \(error)")
+        }
+        
+        if fetchedDays.count == 0
+        {
+            // today object has not been created yet
+            let entity = NSEntityDescription.entityForName("Day", inManagedObjectContext: managedContext)
+            let day = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
+            
+            day.setValue(components.day, forKey: "day")
+            day.setValue(components.month, forKey: "month")
+            day.setValue(components.year, forKey: "year")
+            
+            do{
+                try managedContext.save()
+            }
+            catch
+            {
+                fatalError("Failed saving today: \(error)")
+            }
+        }
+        else
+        {
+            print("today already present")
+        }
+        
+        
         return true
     }
 
