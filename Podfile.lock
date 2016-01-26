@@ -1,10 +1,13 @@
 PODS:
+  - CVCalendar (1.2.8)
   - KYDrawerController (1.1.2)
 
 DEPENDENCIES:
+  - CVCalendar (~> 1.2.8)
   - KYDrawerController (~> 1.1)
 
 SPEC CHECKSUMS:
+  CVCalendar: b7eda65b57b7ca6efae7c3d123a163882b3a3595
   KYDrawerController: 222c4d07ed09fa7842011d36d73e3599dcbccab3
 
 COCOAPODS: 0.39.0

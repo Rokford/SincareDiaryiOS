@@ -15,6 +15,7 @@
 		C907FE3D1C47A47300F7AFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C907FE3B1C47A47300F7AFD1 /* LaunchScreen.storyboard */; };
 		C907FE481C47A47300F7AFD1 /* SkincareDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907FE471C47A47300F7AFD1 /* SkincareDiaryTests.swift */; };
 		C907FE531C47A47300F7AFD1 /* SkincareDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C907FE521C47A47300F7AFD1 /* SkincareDiaryUITests.swift */; };
+		C9248F4A1C576B9E0098D652 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9248F491C576B9E0098D652 /* CalendarViewController.swift */; };
 		C955D8371C5262EE0082DD26 /* NavHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955D8361C5262EE0082DD26 /* NavHeaderCell.swift */; };
 		C9BA90261C5122B0000F1D13 /* NavigationDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA90251C5122B0000F1D13 /* NavigationDrawerViewController.swift */; };
 		C9BA90281C51279B000F1D13 /* NavRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA90271C51279B000F1D13 /* NavRowCell.swift */; };
@@ -54,6 +55,7 @@
 		C907FE4E1C47A47300F7AFD1 /* SkincareDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkincareDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C907FE521C47A47300F7AFD1 /* SkincareDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkincareDiaryUITests.swift; sourceTree = "<group>"; };
 		C907FE541C47A47300F7AFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9248F491C576B9E0098D652 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		C955D8361C5262EE0082DD26 /* NavHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavHeaderCell.swift; sourceTree = "<group>"; };
 		C9BA90251C5122B0000F1D13 /* NavigationDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerViewController.swift; sourceTree = "<group>"; };
 		C9BA90271C51279B000F1D13 /* NavRowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavRowCell.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				C9BA90271C51279B000F1D13 /* NavRowCell.swift */,
 				C955D8361C5262EE0082DD26 /* NavHeaderCell.swift */,
 				C9F7F2A71C566ADF008F9FDA /* DaysViewController.swift */,
+				C9248F491C576B9E0098D652 /* CalendarViewController.swift */,
 			);
 			path = SkincareDiary;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				C907FE381C47A47300F7AFD1 /* SkincareDiary.xcdatamodeld in Sources */,
 				C9F7F2A81C566ADF008F9FDA /* DaysViewController.swift in Sources */,
 				C9BA90261C5122B0000F1D13 /* NavigationDrawerViewController.swift in Sources */,
+				C9248F4A1C576B9E0098D652 /* CalendarViewController.swift in Sources */,
 				C907FE301C47A47300F7AFD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
