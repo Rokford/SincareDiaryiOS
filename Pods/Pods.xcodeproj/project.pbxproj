@@ -7,125 +7,340 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AD6E8314A40D7D80603ED1C30392EBF /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B6F1EB0373B34F0436C8EEEF2268B /* KYDrawerController.swift */; };
-		1473E95D20A8550117266D4493AF9C6C /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F54456040B1365F4964CCE56EEC5F /* CVCalendarView.swift */; };
-		27EDCBA933ABC5D70ECF3F562A63D31D /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198BCB103B8DED33F1039051B9AE122 /* CVCalendarMonthView.swift */; };
-		2CD83CDD80950801E1E8E9A7854B795D /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40F129B3D110B02E6D3E954C22B80E /* CVRange.swift */; };
-		33B12555139B2C0FAB72FF64E286A812 /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B1F710F0BB00E5D16845E85648FC /* CVCalendarViewAnimatorDelegate.swift */; };
-		3705C2AE52E45691AFF860C3CEDD7441 /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA050CBA0FC042894FC604D951904F0 /* CVCalendarMonthContentViewController.swift */; };
-		3B87DC7F8BDF75B46E61FA884B289577 /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E87E3C284700DFD0C89BD25B2C04E385 /* CVCalendar-dummy.m */; };
-		40CB3875B30C9203B08807A16064A92A /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4365FC66719B20F7D43ED7AD8BF0E /* CVWeekdaySymbolType.swift */; };
-		461789AA9602F827AF415551B6EDE0B2 /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2344E4F6A34330226D2C7EEBFEDD1A9 /* CVCalendarMenuViewDelegate.swift */; };
-		4E4F17DE924825CE5D480D0E8A05E3CD /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EDAFE421DECAA95189BC0A362E5294 /* CVCalendarViewDelegate.swift */; };
-		551E9EE718FB2628ECBA3954D837BCE5 /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00657070040551FCE8A00918E9D677FE /* CVDate.swift */; };
-		57A71A8F4D5FCC79FE401287E197E7B3 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D5703ECB6F8E4777FF9AFBC8A8AAC /* CVCalendarWeekView.swift */; };
-		58CD6D61EE6BE93AE0FB8D7F6BF45DF4 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BB980454816D34266530157AC3E7FC /* KYDrawerController-dummy.m */; };
-		5E4E07F5AA458FA65DF01816F721468A /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FC9E5B58D42A679A48F2A597840E6A /* CVCalendarWeekday.swift */; };
-		6216E52EED65FFA771AD682DE96BC3B2 /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F866B750132943324A7112E4733EE5 /* CVCalendarDayViewControlCoordinator.swift */; };
-		62D9E7D63B75A2CD4A423744C9D29DB3 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFACEEEDE286781F075097103E06872 /* CVScrollDirection.swift */; };
-		6637B96C6BD4B5532AA3B69133DE4055 /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416E49B24D1093F56A2EA1F67952CAE /* CVCalendarViewPresentationMode.swift */; };
-		6891101D8D1D37D2A990F6B398A992D3 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE888FC9CEFD67C86E0C26CC2FAC3C10 /* CVShape.swift */; };
+		028D6B6E2340F2F3F58ACE40CB4EA666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0A83E19CE99F2C45B102A861CBA0C725 /* BarLineScatterCandleBubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DA3BE8EF1851E7DE893A65188DEA1 /* BarLineScatterCandleBubbleChartData.swift */; };
+		0AD6E8314A40D7D80603ED1C30392EBF /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D0081F71D3BE6176F5349CB65E478 /* KYDrawerController.swift */; };
+		1473E95D20A8550117266D4493AF9C6C /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD012449D74CF74650B8347A6C10D33 /* CVCalendarView.swift */; };
+		16334C1D5F94D0CD4942FF86E3DF657C /* BarLineScatterCandleBubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046659FB654897E6EF41E6F540E8C28F /* BarLineScatterCandleBubbleChartDataSet.swift */; };
+		170D718E2C820505366A2E47D84FF2EB /* BubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8C5855E0EC4BE806A3A2CED85BC26B /* BubbleChartData.swift */; };
+		19650FE6AF5850ACC980DB2ED00C50C3 /* ScatterChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4861DB7D1621F31A51F101C835E389CE /* ScatterChartData.swift */; };
+		19999CFA27C15EECE49F2A6D5CCCAFB3 /* CombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AE5FFCB7CCE06C245E6CFA9FF495B /* CombinedChartRenderer.swift */; };
+		20006E49835266BDF8F7B279B78A1DF2 /* PieRadarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF6BEA3EFF11DEF2550527101BFBC23 /* PieRadarChartViewBase.swift */; };
+		23A1FC607C1E2FC533546541D604A026 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7392B03FAA7FBB44AA0B8ABA8779E /* BarChartView.swift */; };
+		2464CE28D97360AADAA68EFDCA219E4E /* ChartColorTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A05698DDF50825DD36C6ABCF743A96 /* ChartColorTemplates.swift */; };
+		27EDCBA933ABC5D70ECF3F562A63D31D /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E14FD9C8381FC999A9B38928931A9B0 /* CVCalendarMonthView.swift */; };
+		2BEBCA7927B242DD849DFBB094621644 /* LineScatterCandleRadarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671B071C0B1A34061A01CA0D04D6E689 /* LineScatterCandleRadarChartRenderer.swift */; };
+		2CD83CDD80950801E1E8E9A7854B795D /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D41DC02FC17329B4252EF216DB01FE /* CVRange.swift */; };
+		2E276645BF9AB2A8FAD36A2524B587D4 /* ChartSelectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F878773A5445F738E1AFEE720F3EA /* ChartSelectionDetail.swift */; };
+		31CD68A682C3EF6E0546C64FD439985B /* BarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865D8AEAB4C0192CD3584EEC3F55270 /* BarChartRenderer.swift */; };
+		31DA4F22016DE1B5F4C1DDB545C2853D /* ChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB08892F8716C49E330C89675C21D1 /* ChartDataSet.swift */; };
+		33B12555139B2C0FAB72FF64E286A812 /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B500DCA35D659B0678D733B4EA2ABD /* CVCalendarViewAnimatorDelegate.swift */; };
+		369469F3DEDDC28CC80BD1AC5C56DE0A /* CandleChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE892FDD5D984327D34C03EBA6144B /* CandleChartDataEntry.swift */; };
+		3705C2AE52E45691AFF860C3CEDD7441 /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67B96185D33D2321DA5810B38FD7DB /* CVCalendarMonthContentViewController.swift */; };
+		3A09D41D070EB9F3BC25BCB6A071A5D1 /* ChartDataBaseFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9B2695B174286ECB8B61451ED0B937 /* ChartDataBaseFilter.swift */; };
+		3B87DC7F8BDF75B46E61FA884B289577 /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 953A1B0C96C30AC1C6BB45156577106D /* CVCalendar-dummy.m */; };
+		3D18F5F2395946ABE1B32650EAFFFA2A /* LineChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFE687C7C284BCCCE0C2305341DD80 /* LineChartRenderer.swift */; };
+		3FE74A2F87C5FF3F37AD5E92584BE498 /* ChartYAxisRendererHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B88D40CBF8039A48DEF3D9353B2B1 /* ChartYAxisRendererHorizontalBarChart.swift */; };
+		40CB3875B30C9203B08807A16064A92A /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733CB48AB575401CE425FF4DCFEDED55 /* CVWeekdaySymbolType.swift */; };
+		420BF66640FFA45D2309D4E3A9B63826 /* LineScatterCandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEFC7230269CBE91DB3F5304280AC59 /* LineScatterCandleChartDataSet.swift */; };
+		43850DEC627B002A0E5BCF76238B530F /* CandleStickChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A114DD7D695463EBDF2B07FC76FD2 /* CandleStickChartRenderer.swift */; };
+		461789AA9602F827AF415551B6EDE0B2 /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F94E648449A9542D88B8CEBF44793 /* CVCalendarMenuViewDelegate.swift */; };
+		498C67CE8189A6FC8F03AF7AD6187D1C /* ChartRendererBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D039BAE8933960089CFC6B094F20CF /* ChartRendererBase.swift */; };
+		4BA46464BBD6ED358994C21218FB1024 /* PieChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E485A532A60F1413CA88FF2E4289F92 /* PieChartRenderer.swift */; };
+		4D91212DF0613EC021BB77AFF14C616F /* BarChartHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DDD6655FF197504AE8B425BE5C603 /* BarChartHighlighter.swift */; };
+		4E4F17DE924825CE5D480D0E8A05E3CD /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09901B93918A3504D64EF2B205E161E7 /* CVCalendarViewDelegate.swift */; };
+		54AEF1669C2EAC0D24C353AD5E488438 /* ChartXAxisRendererHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9634E594D353282A78B1C58BAC040830 /* ChartXAxisRendererHorizontalBarChart.swift */; };
+		551E9EE718FB2628ECBA3954D837BCE5 /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF83AB5FAE7705CD960F2609E14C51 /* CVDate.swift */; };
+		55C74A9DCA3EFDC70AE236C201ED3822 /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3AA59EEAB35690205844D4C58D073 /* BarLineScatterCandleBubbleChartDataProvider.swift */; };
+		57A71A8F4D5FCC79FE401287E197E7B3 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2133018A179CA97BBE83C0FB5AB90 /* CVCalendarWeekView.swift */; };
+		58CD6D61EE6BE93AE0FB8D7F6BF45DF4 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 353C08284822938CA960B2FFEF3A353A /* KYDrawerController-dummy.m */; };
+		58F0912C6B95A44500256EC647567C59 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7025BEDB1077D331CA7F2D9838A204 /* LineChartView.swift */; };
+		594C831C21FEEF58C896836CB5E94AED /* BubbleChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF2F34FC7B9E260EC35FF3DC76BC51 /* BubbleChartRenderer.swift */; };
+		59A714DFFE130A70EF4555AD1C6888C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5A6F89BA0EF4065362DBE1C6A8736821 /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4815CBC3165436121A717116000E7F6D /* PieChartDataSet.swift */; };
+		5CF7D908E8B9ED1B9862C5846DE267ED /* CandleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88032AA3DBC0953279DC5AF7E485F737 /* CandleChartDataProvider.swift */; };
+		5E4E07F5AA458FA65DF01816F721468A /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA7084F2C6C2FDE091BBB177DB99E9 /* CVCalendarWeekday.swift */; };
+		60690474E28B8AF692726E7AD691A91A /* BarChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4B1CE2E362AF83EEDF1818D7527600 /* BarChartDataEntry.swift */; };
+		60F5FCA13FABEC1FBD835D197CD99BFC /* ScatterChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D01EE2774BE992BA8168AEB1353101C /* ScatterChartDataSet.swift */; };
+		61A6BB49C31808C646748DD6A7FFB744 /* BubbleChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524EE599D1FB82198FA2797ED641B23 /* BubbleChartDataEntry.swift */; };
+		61DBF5391F89F239F66EF10EA502F779 /* ChartRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843F1AC2781ACE9BBF80F4E999D0304 /* ChartRange.swift */; };
+		6216E52EED65FFA771AD682DE96BC3B2 /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11774C106A81F62EA93682CCE4692BD1 /* CVCalendarDayViewControlCoordinator.swift */; };
+		62D9E7D63B75A2CD4A423744C9D29DB3 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9CFCE9727A571578C706BA0144270D /* CVScrollDirection.swift */; };
+		6369E75ABD1E68C235FA23399FEF7D89 /* ChartXAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D38B3B205F6AAC877916586D76605 /* ChartXAxisRendererRadarChart.swift */; };
+		6637B96C6BD4B5532AA3B69133DE4055 /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E1261FDDEB102454EE033928D0630 /* CVCalendarViewPresentationMode.swift */; };
+		67F31494CAF07AA2E6BFF57A2B2DFCC4 /* ChartYAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6FEFAA64E3DA6FF9319D833899CF40 /* ChartYAxisRendererRadarChart.swift */; };
+		6840940451CC2AEBB45E7B998A8CC290 /* ChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB72E42A67A2DAD185DDA6B0BE52B18 /* ChartViewBase.swift */; };
+		6891101D8D1D37D2A990F6B398A992D3 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F567FCB9706CB956E93E68F4E0CFD461 /* CVShape.swift */; };
+		68F3CEDCAD62CBA3815C5281692177B7 /* LineChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9346B5E13566701DFADC4053C45AB3 /* LineChartDataProvider.swift */; };
 		6A42CA1CA26852DF60F79E5748490DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		6CB822F35D76353193BFA86DD7BC2963 /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FE6812723C1E5FFA489F2E72C9297 /* CVCalendarTouchController.swift */; };
-		6DA361F78BD4FE4C1D91F3B4888D2D48 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681D3B6987C8597FC06336BFEA5804C /* CVCalendarViewAppearanceDelegate.swift */; };
+		6A7246830C954C7DD214B13D602C4431 /* ChartAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D0236F69C682D60B6564E060D30A6 /* ChartAnimator.swift */; };
+		6A8CE896E678CD948EC18D91DAB42F08 /* Pods-SkincareDiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4795AED760FD3D0D42A2B8A15F50157 /* Pods-SkincareDiary-dummy.m */; };
+		6B1DCD7C8034CE487064073CB005DC5A /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125E6305FA6BA80F5D9C106771D59D2 /* PieChartView.swift */; };
+		6B95D17FCABDEF7B9121F07B88001E83 /* BarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65AABB109DB00B175CE0DA0167C917 /* BarChartDataSet.swift */; };
+		6CB822F35D76353193BFA86DD7BC2963 /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EB3E06634B632169BB8FC3D569140 /* CVCalendarTouchController.swift */; };
+		6DA361F78BD4FE4C1D91F3B4888D2D48 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D8F05860B07CE0DF6ACCFF11F300B /* CVCalendarViewAppearanceDelegate.swift */; };
+		6EA10FD5F5ABFB5AF4F480DC4BDD316C /* ChartTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C034D75A2FF099E24DD7F676CF4AEB /* ChartTransformer.swift */; };
+		71175B7D9BD12849D5CE95CAC4DD12B0 /* ChartTransformerHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D912E4B03627B160384AD7F28F35BFC /* ChartTransformerHorizontalBarChart.swift */; };
+		71F9CE3D34C904D74029BA0DEC8909B0 /* ChartLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF75179174A9DC2A53951A66E6B8D94 /* ChartLegend.swift */; };
+		72DCE2C6171AACC80B9144464099DD3E /* ChartDataRendererBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60653F7EBFE5CA2A37840992D576C693 /* ChartDataRendererBase.swift */; };
+		72FD712C15D549F36D61DBE4C077C269 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D99FA3AD752D1990A2680AC7CF1DE9 /* ChartData.swift */; };
+		75407A0C4D39D32DB48A10F1E473CCF8 /* HorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477A6D1C2098D8E5C3438153BD46C23 /* HorizontalBarChartView.swift */; };
+		77498165053D5FF9DEBF5525CE609CFF /* ChartXAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E782ADFC6791C8F790FEB9BAC1391 /* ChartXAxisRenderer.swift */; };
+		7A287166C1E75245863E1E7762893281 /* CombinedChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26815277EB8C80559C2BDB0122CD771B /* CombinedChartData.swift */; };
 		7AFDEDE48B5D21665E90316B898E9DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7ED02CD711925EBF88835D9A16CAAA93 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B6E19DCC97930A7D880E549FF1314 /* KYEmbedMainControllerSegue.swift */; };
-		7FE567382B46982C01C4AF4F95A6093D /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37755A513804CF0683129015BD8F4D7 /* CVSelectionType.swift */; };
-		89B74E8B8891F867316F062F7F0340CB /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA82C77D7CE67B0FA9EF697133A6C63 /* KYEmbedDrawerControllerSegue.swift */; };
-		8BF92F5AF7E78E494D90B05475DD63C9 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD85DDDE4F4C9A2205C8480F1F0803C /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95BBCAAE65C6668992593E20D80452DA /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5B0CD6F8EBAE2F24AD1C2FE5294AF /* CVCalendarViewAnimator.swift */; };
-		9F596692858960FCDD3C7E648896FCFF /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA65CD11D61D2667EAAD99F6D8360235 /* CVCalendarWeekContentViewController.swift */; };
-		AF021721AB2F970368E622EABFB9651F /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE650B97167F24A96F7B1E27387F01 /* CVAuxiliaryView.swift */; };
-		B218F1BF6AEF7D9295EC4850457C40C1 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536FF5650B1AF2621700C2571B0E54B8 /* CVCalendarManager.swift */; };
-		B3D4E56896D3187D07A37D1C0BB4463F /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07CFDC73606048A158ABDA4B1922F4 /* CVCalendarMenuView.swift */; };
-		BA2171175CEB329626AC8C4287F870A9 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7464B954B44FB4FF4BBEC544F382E3B /* CVSet.swift */; };
-		C43D38950E53365B6B6771253DAA7A0A /* Pods-SkincareDiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4795AED760FD3D0D42A2B8A15F50157 /* Pods-SkincareDiary-dummy.m */; };
-		C68D88393AB99D8587329B61229CAA10 /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735AE7BB9B9182B7307E2C20CDD29903 /* CVCalendarContentViewController.swift */; };
-		C8F505E2C3284B4BA389F0B4C7377A12 /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C24DBDD2FD2DFFBC4AB93723F4591 /* CVCalendarDayView.swift */; };
-		D601D7BB69C668C4980A504B3A5B2FA3 /* Pods-SkincareDiary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B56829ED1AE78E6F56CAECB8D6662B /* Pods-SkincareDiary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9A86BFF9617EE2BAF83EA6D36B50B96 /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48041A075EBA5EC50E19A5826F9D945A /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFCF4C946E6255C6DAC185E73C85C472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F809213B24C125C576D1A8D28D242A4F /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E31DDB4EE43D589362877428DA19F7 /* CVCalendarViewAppearance.swift */; };
+		7B408E4BE1C94F704621234F5CB68364 /* CandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0363FC2A26E1485D4C51A71F3F7290D /* CandleStickChartView.swift */; };
+		7ED02CD711925EBF88835D9A16CAAA93 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12BD77DEA6BC1DF6A8F039681D2E88 /* KYEmbedMainControllerSegue.swift */; };
+		7ED26186F3A392830F568AF713FCEFAF /* CombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AAB8F901ECF03D12E618917D4B0F99 /* CombinedChartView.swift */; };
+		7FC6079C6CCF31084E4386C263238E79 /* ChartDataApproximatorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9841B0DDB47B687CB8DBD9734C407D93 /* ChartDataApproximatorFilter.swift */; };
+		7FE567382B46982C01C4AF4F95A6093D /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EF640ED052A8478D2541FB7695860 /* CVSelectionType.swift */; };
+		8297FEC974CFB598B73B05B3E5F2E8AB /* ChartXAxisRendererBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479890B72AACFAF86E25B21110B1B7C9 /* ChartXAxisRendererBarChart.swift */; };
+		847C0E7301A81307DFD4CEC40F774875 /* ChartAxisRendererBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070918FAE5B2BA63F48516261CC5B3D /* ChartAxisRendererBase.swift */; };
+		86AB103EA0B9F1071500AEC6BAEB9CD6 /* BarChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6864DE3C1E5D9C39997DBC073F0373 /* BarChartDataProvider.swift */; };
+		89B74E8B8891F867316F062F7F0340CB /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD479084100F5806FF76692DEA7A5413 /* KYEmbedDrawerControllerSegue.swift */; };
+		8BF92F5AF7E78E494D90B05475DD63C9 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F83CE027EC117CD8CBD0AD26B22D28 /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6FC3984C415467EA4D8C7FEF52CA07 /* ChartComponentBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2E9DD793421227471DCAC55BCE1E5E /* ChartComponentBase.swift */; };
+		8F76150D196C250B506F92B50B729B20 /* HorizontalBarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C55E07F4BF2F79B32CDAF4FDEED414 /* HorizontalBarChartRenderer.swift */; };
+		91B755D794F581FCA5D1ECCCA85EFC80 /* LineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317062D67E811BEFB1EDA72FA491C384 /* LineChartDataSet.swift */; };
+		91E91F63B61CCDD9386963F7212267DA /* HorizontalBarChartHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6603C76D922448E3500B5A1F86D0F75 /* HorizontalBarChartHighlighter.swift */; };
+		95BBCAAE65C6668992593E20D80452DA /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB770E0097E66E3BB4933EDA3473A681 /* CVCalendarViewAnimator.swift */; };
+		9A5E0A7ABD6915B934037AF1C0BBD8BC /* ChartViewPortHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802EC8DCBF21E1C0E6E3551ACDA7968 /* ChartViewPortHandler.swift */; };
+		9C30CC3E02175D8D9524450D77B26D65 /* ChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B20178E0CA760E3A1BD6D5045817F /* ChartDataEntry.swift */; };
+		9F596692858960FCDD3C7E648896FCFF /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C1D2B7E7B6A5201A1969BEE933B06 /* CVCalendarWeekContentViewController.swift */; };
+		A12AB5AC0B0F4006E6628C6A51CF7C15 /* BubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E665C561D1E0E2A26D997ED4F7A66D88 /* BubbleChartView.swift */; };
+		A22394659479706926D7C3343749FB89 /* ChartHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75F22FE54522F0372A0B2730F9AAD /* ChartHighlight.swift */; };
+		A2AE581715AFABB031386AF04641D965 /* BubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7708A9FF886BE76649CA5C1F6AF54D5 /* BubbleChartDataSet.swift */; };
+		A47424B67274516CCA60099B0FC8F5D2 /* ChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3F2B76B1B5F6646C8FDFAF9D29CE4 /* ChartDataProvider.swift */; };
+		AAC6F0D0FBF3FE6E3A9C411F5F6CDEFD /* ChartFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC908032B911181A54217ED7B8F6DE40 /* ChartFillFormatter.swift */; };
+		AADAFDF77D885CC60D891F33509D15BE /* ScatterChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A216ACABAABC77CF4D5FBA7BC28606 /* ScatterChartDataProvider.swift */; };
+		AC1B0AB4620738559F28CB94E229E5E9 /* ChartYAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA840756C6D3085728633392B4D4862 /* ChartYAxisRenderer.swift */; };
+		ACE491E6D58C1F971F61BEB26B22CB81 /* CombinedHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8837C6724384AC7005AEABBE74F8B /* CombinedHighlighter.swift */; };
+		AF021721AB2F970368E622EABFB9651F /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6192C428927F25B7501F266FA088EC33 /* CVAuxiliaryView.swift */; };
+		B0D00C906B07C8911CE6744C6721929E /* ScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C16427206BCCD95BCCDF23D1C1166 /* ScatterChartView.swift */; };
+		B151B7F59127B121F2E739F2411C9C53 /* RadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C157AF32E290D85C3E10440BEDD1DD3 /* RadarChartDataSet.swift */; };
+		B218F1BF6AEF7D9295EC4850457C40C1 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E0744EE18BB320C846C5BCA459E40D /* CVCalendarManager.swift */; };
+		B37449D93482C2CB1915AA70BDDCE898 /* Charts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D80E76165ED2A1A6430B5F5B3C53CA1 /* Charts-dummy.m */; };
+		B3D4E56896D3187D07A37D1C0BB4463F /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF86DD08723870DAB1CEE0CCC5D1DD /* CVCalendarMenuView.swift */; };
+		B58CFDF9B9FC19AB93E993B58A893408 /* ChartAxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB67596B74EEB06A56F7EBE2FB97020 /* ChartAxisBase.swift */; };
+		B6851020CADC71D0F61AC748A4919782 /* ChartUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48565B0C8BFB2CAEFFC6979CD5397E3 /* ChartUtils.swift */; };
+		B8E58DD2E103ED4104B7AE76605FDFEE /* ChartLegendRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED9A67E23D7DAE5A0D1B5572521FBD /* ChartLegendRenderer.swift */; };
+		BA2171175CEB329626AC8C4287F870A9 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D1A56D0A52A8904DB89F0D673A3877 /* CVSet.swift */; };
+		BF1D48220F7C01FF59A36DA58C8780CF /* Pods-SkincareDiary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B56829ED1AE78E6F56CAECB8D6662B /* Pods-SkincareDiary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C340A6CBEE9BCBF3CC8002A678C6CDE4 /* RadarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815DB1837C62ED8FE83457CED5B435A8 /* RadarChartRenderer.swift */; };
+		C5CA261697BFD6CD0CDB11268DC9527A /* ChartDefaultXAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B15C30CA629B1446248F9D141B852 /* ChartDefaultXAxisValueFormatter.swift */; };
+		C68D88393AB99D8587329B61229CAA10 /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE67AE6986DBA02405A3F4FE32A0D7E /* CVCalendarContentViewController.swift */; };
+		C7300C382AF16486F55EF73FAA44DE04 /* ChartMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87732B757657EAC0FBE41A3050E08398 /* ChartMarker.swift */; };
+		C8F505E2C3284B4BA389F0B4C7377A12 /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A177D9D2CCEE193E3CB863046473F /* CVCalendarDayView.swift */; };
+		CAAF559EBF09B59963E31364073A092D /* LineRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246717E09A2F57D3BC77F2E68988AB5 /* LineRadarChartDataSet.swift */; };
+		CAE6C492059573BFBB98431443D3C7BE /* CandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703D26FC2D93EE7737AAC7DE9F5623B /* CandleChartDataSet.swift */; };
+		D0E8A7941E7C5DC1A45C374FB7D59FBD /* ChartYAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F76E9D2DA91A3C070B2BF43D6CCFE3 /* ChartYAxis.swift */; };
+		D8EAC594DE9D2D9209F93ED98627A9BD /* ChartXAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E58CC3FF2FEAE3B66FF8F80894F24B5 /* ChartXAxis.swift */; };
+		D9A86BFF9617EE2BAF83EA6D36B50B96 /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE007428FB3BEC5916B782CD8D52AD1 /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E45428263F4A470F66E7F4E5352EA7 /* CandleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C117FB9E7AA9B49F1C22B78AE9BFD841 /* CandleChartData.swift */; };
+		DB9262E9F12A26F3B6F9EF4D4BCCE15B /* BarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9EB32D591E54A2B330F3361B91C4A0 /* BarChartData.swift */; };
+		DE2CFAE73481B546F8341B7B54057E5C /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479BD16C4F26725EA1263A534E7222C /* LineChartData.swift */; };
+		E0F375F31617361E01EC5194A3564F20 /* Charts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D25654E2DE5044BAC179C0546F19D25 /* Charts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E216E39E39A2C0B1BC1B223F8EF319A6 /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94692791AAF4335C0AEEE52456B78B0 /* RadarChartView.swift */; };
+		E3EFDADABB2A38CEB1383B01B7C854B0 /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C7144290A0787B932D3F4B0E6D4F6 /* ChartAnimationEasing.swift */; };
+		E5296467AC2501440C0B1AAE174422A3 /* PieChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA545978C260F0209003D5C214681565 /* PieChartData.swift */; };
+		E7B17F3DD8CD34748DAFDC466FE1D0A4 /* ScatterChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC64D4DA9D464AE079CEF320631F18 /* ScatterChartRenderer.swift */; };
+		E9EA0CA9EADF2F868B26FFAA3CD79081 /* RadarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758DEE680E609F126D6A173B8AB59A53 /* RadarChartData.swift */; };
+		EF62E0011B10F23C3E83377254FB17FF /* ChartLimitLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84311D0EB87054AF150E93584FDCF94 /* ChartLimitLine.swift */; };
+		F3D1C20621E7C51F7D9D9CBF12A80E55 /* ChartHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18174B5BFA6107480C13C335094150F /* ChartHighlighter.swift */; };
+		F710622B4958B15999054D1844A32F3E /* BarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCECEAE29A78F60BCAA7EF25F99CAF4B /* BarLineChartViewBase.swift */; };
+		F76A9A10BD70CBD4DF35CE9B1B912680 /* ChartXAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5E90F488B9CE996F7683DE38F006D /* ChartXAxisValueFormatter.swift */; };
+		F809213B24C125C576D1A8D28D242A4F /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D427713691C4903E2B8540C43F6057C5 /* CVCalendarViewAppearance.swift */; };
+		F911CE29F37DADA80C99E1B152BE31CC /* BubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65D9D2FAD07C6EC51F56777F44EDC0 /* BubbleChartDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E69310755183C572E7632ED43C0C9493 /* PBXContainerItemProxy */ = {
+		153D4A76254DE6E69E1808BEF766DB66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA14B622689766F6B8A4F42FD9DE552F;
-			remoteInfo = CVCalendar;
+			remoteGlobalIDString = 24090FBCEF7A50AE384678B5C071804B;
+			remoteInfo = Charts;
 		};
-		F8B5597140C77DBAFE80242D02CE3112 /* PBXContainerItemProxy */ = {
+		302933D02FDE90F428EEEFB2A12E5D2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 43F633B3903DE39E43C0B694E1C46B06;
 			remoteInfo = KYDrawerController;
 		};
+		3758482BD57DC2821B20E421A73C6539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA14B622689766F6B8A4F42FD9DE552F;
+			remoteInfo = CVCalendar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00657070040551FCE8A00918E9D677FE /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
-		00E31DDB4EE43D589362877428DA19F7 /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		046659FB654897E6EF41E6F540E8C28F /* BarLineScatterCandleBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataSet.swift; path = Charts/Classes/Data/BarLineScatterCandleBubbleChartDataSet.swift; sourceTree = "<group>"; };
+		06050A7BA8E4A63754E6C6BA57AC783D /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
 		06427371E5BC1FBD75E841AC62A917C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BA82C77D7CE67B0FA9EF697133A6C63 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
-		0E04B1F710F0BB00E5D16845E85648FC /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
-		12EDAFE421DECAA95189BC0A362E5294 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
-		203C99FA1EB8F9628C3A1CB5983C64AA /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
-		2198BCB103B8DED33F1039051B9AE122 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
-		27AAF7515AFBDF22569ED8DB355B2841 /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
-		2CC5B0CD6F8EBAE2F24AD1C2FE5294AF /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
-		2E2F54456040B1365F4964CCE56EEC5F /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
-		32BB980454816D34266530157AC3E7FC /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
-		363FE6812723C1E5FFA489F2E72C9297 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
-		3681D3B6987C8597FC06336BFEA5804C /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
-		3B6B6E19DCC97930A7D880E549FF1314 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		09901B93918A3504D64EF2B205E161E7 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		09D103FB624BA59FEDC5C342E842CDE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C157AF32E290D85C3E10440BEDD1DD3 /* RadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataSet.swift; path = Charts/Classes/Data/RadarChartDataSet.swift; sourceTree = "<group>"; };
+		10C55E07F4BF2F79B32CDAF4FDEED414 /* HorizontalBarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartRenderer.swift; path = Charts/Classes/Renderers/HorizontalBarChartRenderer.swift; sourceTree = "<group>"; };
+		11774C106A81F62EA93682CCE4692BD1 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		11BC64D4DA9D464AE079CEF320631F18 /* ScatterChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartRenderer.swift; path = Charts/Classes/Renderers/ScatterChartRenderer.swift; sourceTree = "<group>"; };
+		17F76E9D2DA91A3C070B2BF43D6CCFE3 /* ChartYAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartYAxis.swift; path = Charts/Classes/Components/ChartYAxis.swift; sourceTree = "<group>"; };
+		18D75B8F5BF6511550D0E71A0B9C9454 /* Pods_SkincareDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkincareDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0B15C30CA629B1446248F9D141B852 /* ChartDefaultXAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDefaultXAxisValueFormatter.swift; path = Charts/Classes/Formatters/ChartDefaultXAxisValueFormatter.swift; sourceTree = "<group>"; };
+		1E67B96185D33D2321DA5810B38FD7DB /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		232F878773A5445F738E1AFEE720F3EA /* ChartSelectionDetail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartSelectionDetail.swift; path = Charts/Classes/Utils/ChartSelectionDetail.swift; sourceTree = "<group>"; };
+		26815277EB8C80559C2BDB0122CD771B /* CombinedChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartData.swift; path = Charts/Classes/Data/CombinedChartData.swift; sourceTree = "<group>"; };
+		2843F1AC2781ACE9BBF80F4E999D0304 /* ChartRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartRange.swift; path = Charts/Classes/Highlight/ChartRange.swift; sourceTree = "<group>"; };
+		2CF75179174A9DC2A53951A66E6B8D94 /* ChartLegend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartLegend.swift; path = Charts/Classes/Components/ChartLegend.swift; sourceTree = "<group>"; };
+		2D6AE5FFCB7CCE06C245E6CFA9FF495B /* CombinedChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartRenderer.swift; path = Charts/Classes/Renderers/CombinedChartRenderer.swift; sourceTree = "<group>"; };
+		2D80E76165ED2A1A6430B5F5B3C53CA1 /* Charts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Charts-dummy.m"; sourceTree = "<group>"; };
+		2DB8837C6724384AC7005AEABBE74F8B /* CombinedHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedHighlighter.swift; path = Charts/Classes/Highlight/CombinedHighlighter.swift; sourceTree = "<group>"; };
+		2E14FD9C8381FC999A9B38928931A9B0 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		3070918FAE5B2BA63F48516261CC5B3D /* ChartAxisRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAxisRendererBase.swift; path = Charts/Classes/Renderers/ChartAxisRendererBase.swift; sourceTree = "<group>"; };
+		30EE892FDD5D984327D34C03EBA6144B /* CandleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataEntry.swift; path = Charts/Classes/Data/CandleChartDataEntry.swift; sourceTree = "<group>"; };
+		3125E6305FA6BA80F5D9C106771D59D2 /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = Charts/Classes/Charts/PieChartView.swift; sourceTree = "<group>"; };
+		317062D67E811BEFB1EDA72FA491C384 /* LineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSet.swift; path = Charts/Classes/Data/LineChartDataSet.swift; sourceTree = "<group>"; };
+		3244E712DE3049A93A2FA8EC50938248 /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		353C08284822938CA960B2FFEF3A353A /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		360F94E648449A9542D88B8CEBF44793 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		379A177D9D2CCEE193E3CB863046473F /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		3865D8AEAB4C0192CD3584EEC3F55270 /* BarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartRenderer.swift; path = Charts/Classes/Renderers/BarChartRenderer.swift; sourceTree = "<group>"; };
+		3BD012449D74CF74650B8347A6C10D33 /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
+		3CB5E90F488B9CE996F7683DE38F006D /* ChartXAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartXAxisValueFormatter.swift; path = Charts/Classes/Formatters/ChartXAxisValueFormatter.swift; sourceTree = "<group>"; };
+		3D25654E2DE5044BAC179C0546F19D25 /* Charts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Charts-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4416E49B24D1093F56A2EA1F67952CAE /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		3E8FA34469C68DE26BE913042460F2B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D99FA3AD752D1990A2680AC7CF1DE9 /* ChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartData.swift; path = Charts/Classes/Data/ChartData.swift; sourceTree = "<group>"; };
 		4656FBDEE7DE0EC54E1AB588C957C0D3 /* Pods-SkincareDiary-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkincareDiary-frameworks.sh"; sourceTree = "<group>"; };
-		478D6C67837B920BC70EAD75FD698A43 /* CVCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.xcconfig; sourceTree = "<group>"; };
-		48041A075EBA5EC50E19A5826F9D945A /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
-		509AD4015FDF4A221BAB51375AB38AAA /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		536FF5650B1AF2621700C2571B0E54B8 /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		479890B72AACFAF86E25B21110B1B7C9 /* ChartXAxisRendererBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartXAxisRendererBarChart.swift; path = Charts/Classes/Renderers/ChartXAxisRendererBarChart.swift; sourceTree = "<group>"; };
+		4815CBC3165436121A717116000E7F6D /* PieChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataSet.swift; path = Charts/Classes/Data/PieChartDataSet.swift; sourceTree = "<group>"; };
+		4861DB7D1621F31A51F101C835E389CE /* ScatterChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartData.swift; path = Charts/Classes/Data/ScatterChartData.swift; sourceTree = "<group>"; };
+		4A9346B5E13566701DFADC4053C45AB3 /* LineChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataProvider.swift; path = Charts/Classes/Interfaces/LineChartDataProvider.swift; sourceTree = "<group>"; };
+		4AB72E42A67A2DAD185DDA6B0BE52B18 /* ChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartViewBase.swift; path = Charts/Classes/Charts/ChartViewBase.swift; sourceTree = "<group>"; };
+		4DA840756C6D3085728633392B4D4862 /* ChartYAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartYAxisRenderer.swift; path = Charts/Classes/Renderers/ChartYAxisRenderer.swift; sourceTree = "<group>"; };
+		5479BD16C4F26725EA1263A534E7222C /* LineChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartData.swift; path = Charts/Classes/Data/LineChartData.swift; sourceTree = "<group>"; };
 		597FAC47ECA306DBD50E2065DF9507FC /* Pods-SkincareDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkincareDiary.debug.xcconfig"; sourceTree = "<group>"; };
-		5D1D5703ECB6F8E4777FF9AFBC8A8AAC /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		59B500DCA35D659B0678D733B4EA2ABD /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		5AE67AE6986DBA02405A3F4FE32A0D7E /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		5BB7392B03FAA7FBB44AA0B8ABA8779E /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = Charts/Classes/Charts/BarChartView.swift; sourceTree = "<group>"; };
+		5BEB3A307F7E0C495BE5EBF1B986BD13 /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED97489DF5D0C3E24FCAF8C90AC88A /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D912E4B03627B160384AD7F28F35BFC /* ChartTransformerHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartTransformerHorizontalBarChart.swift; path = Charts/Classes/Utils/ChartTransformerHorizontalBarChart.swift; sourceTree = "<group>"; };
+		5E485A532A60F1413CA88FF2E4289F92 /* PieChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartRenderer.swift; path = Charts/Classes/Renderers/PieChartRenderer.swift; sourceTree = "<group>"; };
+		60653F7EBFE5CA2A37840992D576C693 /* ChartDataRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataRendererBase.swift; path = Charts/Classes/Renderers/ChartDataRendererBase.swift; sourceTree = "<group>"; };
+		60D039BAE8933960089CFC6B094F20CF /* ChartRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartRendererBase.swift; path = Charts/Classes/Renderers/ChartRendererBase.swift; sourceTree = "<group>"; };
+		6150A9BC033D5293F851658FFC2FE556 /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CVCalendar.modulemap; sourceTree = "<group>"; };
+		6192C428927F25B7501F266FA088EC33 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		6524EE599D1FB82198FA2797ED641B23 /* BubbleChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataEntry.swift; path = Charts/Classes/Data/BubbleChartDataEntry.swift; sourceTree = "<group>"; };
+		671B071C0B1A34061A01CA0D04D6E689 /* LineScatterCandleRadarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarChartRenderer.swift; path = Charts/Classes/Renderers/LineScatterCandleRadarChartRenderer.swift; sourceTree = "<group>"; };
+		690D8F05860B07CE0DF6ACCFF11F300B /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		699A96357B869F6F2DEE707728904998 /* Charts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Charts.xcconfig; sourceTree = "<group>"; };
+		6A389804251FB5B45DF1A714DD0A6CE4 /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
 		6BD279A414A85348864B9A0BDF6CA851 /* Pods-SkincareDiary-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkincareDiary-resources.sh"; sourceTree = "<group>"; };
-		6C8B6F1EB0373B34F0436C8EEEF2268B /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
-		735AE7BB9B9182B7307E2C20CDD29903 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
-		7BA43E6816CD935D8F3A16E6594E077E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8272E171E6CB65BCD08E8AC22FD13ADC /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CVCalendar.modulemap; sourceTree = "<group>"; };
-		893A891EF6ADF0B3124002CA51154BE9 /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A1C24DBDD2FD2DFFBC4AB93723F4591 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		6D01EE2774BE992BA8168AEB1353101C /* ScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataSet.swift; path = Charts/Classes/Data/ScatterChartDataSet.swift; sourceTree = "<group>"; };
+		6D4B1CE2E362AF83EEDF1818D7527600 /* BarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataEntry.swift; path = Charts/Classes/Data/BarChartDataEntry.swift; sourceTree = "<group>"; };
+		6E58CC3FF2FEAE3B66FF8F80894F24B5 /* ChartXAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartXAxis.swift; path = Charts/Classes/Components/ChartXAxis.swift; sourceTree = "<group>"; };
+		733CB48AB575401CE425FF4DCFEDED55 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		73DB08892F8716C49E330C89675C21D1 /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Charts/Classes/Data/ChartDataSet.swift; sourceTree = "<group>"; };
+		74B3F2B76B1B5F6646C8FDFAF9D29CE4 /* ChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataProvider.swift; path = Charts/Classes/Interfaces/ChartDataProvider.swift; sourceTree = "<group>"; };
+		758DEE680E609F126D6A173B8AB59A53 /* RadarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartData.swift; path = Charts/Classes/Data/RadarChartData.swift; sourceTree = "<group>"; };
+		78D1A56D0A52A8904DB89F0D673A3877 /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
+		7CB67596B74EEB06A56F7EBE2FB97020 /* ChartAxisBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAxisBase.swift; path = Charts/Classes/Components/ChartAxisBase.swift; sourceTree = "<group>"; };
+		7F9B2695B174286ECB8B61451ED0B937 /* ChartDataBaseFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataBaseFilter.swift; path = Charts/Classes/Filters/ChartDataBaseFilter.swift; sourceTree = "<group>"; };
+		815DB1837C62ED8FE83457CED5B435A8 /* RadarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartRenderer.swift; path = Charts/Classes/Renderers/RadarChartRenderer.swift; sourceTree = "<group>"; };
+		8246717E09A2F57D3BC77F2E68988AB5 /* LineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarChartDataSet.swift; path = Charts/Classes/Data/LineRadarChartDataSet.swift; sourceTree = "<group>"; };
+		83D41DC02FC17329B4252EF216DB01FE /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
+		87732B757657EAC0FBE41A3050E08398 /* ChartMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartMarker.swift; path = Charts/Classes/Components/ChartMarker.swift; sourceTree = "<group>"; };
+		87EA4A2BD8B0B9A7730FDED7E246B125 /* CVCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.xcconfig; sourceTree = "<group>"; };
+		88032AA3DBC0953279DC5AF7E485F737 /* CandleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataProvider.swift; path = Charts/Classes/Interfaces/CandleChartDataProvider.swift; sourceTree = "<group>"; };
+		88A75F22FE54522F0372A0B2730F9AAD /* ChartHighlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartHighlight.swift; path = Charts/Classes/Highlight/ChartHighlight.swift; sourceTree = "<group>"; };
 		8AA80C6C038D078EB76A31AE68E46928 /* Pods-SkincareDiary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkincareDiary-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CFACEEEDE286781F075097103E06872 /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
-		93B4365FC66719B20F7D43ED7AD8BF0E /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		8C34B21E34B5702CD163D9BABEFD072E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA3AA59EEAB35690205844D4C58D073 /* BarLineScatterCandleBubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataProvider.swift; path = Charts/Classes/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift; sourceTree = "<group>"; };
+		8F2D0236F69C682D60B6564E060D30A6 /* ChartAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimator.swift; path = Charts/Classes/Animation/ChartAnimator.swift; sourceTree = "<group>"; };
+		90A05698DDF50825DD36C6ABCF743A96 /* ChartColorTemplates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartColorTemplates.swift; path = Charts/Classes/Utils/ChartColorTemplates.swift; sourceTree = "<group>"; };
 		9426EE83164A4C8CED74F3CCA2615C61 /* Pods-SkincareDiary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkincareDiary-acknowledgements.markdown"; sourceTree = "<group>"; };
-		980D232B71882B51FD97EDFD0392D725 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BD85DDDE4F4C9A2205C8480F1F0803C /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
-		9F40F129B3D110B02E6D3E954C22B80E /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
+		953A1B0C96C30AC1C6BB45156577106D /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
+		9634E594D353282A78B1C58BAC040830 /* ChartXAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartXAxisRendererHorizontalBarChart.swift; path = Charts/Classes/Renderers/ChartXAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
+		9703D26FC2D93EE7737AAC7DE9F5623B /* CandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSet.swift; path = Charts/Classes/Data/CandleChartDataSet.swift; sourceTree = "<group>"; };
+		974D38B3B205F6AAC877916586D76605 /* ChartXAxisRendererRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartXAxisRendererRadarChart.swift; path = Charts/Classes/Renderers/ChartXAxisRendererRadarChart.swift; sourceTree = "<group>"; };
+		9841B0DDB47B687CB8DBD9734C407D93 /* ChartDataApproximatorFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataApproximatorFilter.swift; path = Charts/Classes/Filters/ChartDataApproximatorFilter.swift; sourceTree = "<group>"; };
+		9C2E9DD793421227471DCAC55BCE1E5E /* ChartComponentBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartComponentBase.swift; path = Charts/Classes/Components/ChartComponentBase.swift; sourceTree = "<group>"; };
+		A1F83CE027EC117CD8CBD0AD26B22D28 /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
 		A4795AED760FD3D0D42A2B8A15F50157 /* Pods-SkincareDiary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkincareDiary-dummy.m"; sourceTree = "<group>"; };
-		A7DE650B97167F24A96F7B1E27387F01 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
-		ADA050CBA0FC042894FC604D951904F0 /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
-		B37755A513804CF0683129015BD8F4D7 /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
-		B6F866B750132943324A7112E4733EE5 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
-		B8FC9E5B58D42A679A48F2A597840E6A /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		A51A114DD7D695463EBDF2B07FC76FD2 /* CandleStickChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartRenderer.swift; path = Charts/Classes/Renderers/CandleStickChartRenderer.swift; sourceTree = "<group>"; };
+		A69B20178E0CA760E3A1BD6D5045817F /* ChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataEntry.swift; path = Charts/Classes/Data/ChartDataEntry.swift; sourceTree = "<group>"; };
+		A802EC8DCBF21E1C0E6E3551ACDA7968 /* ChartViewPortHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartViewPortHandler.swift; path = Charts/Classes/Utils/ChartViewPortHandler.swift; sourceTree = "<group>"; };
+		AA12BD77DEA6BC1DF6A8F039681D2E88 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		AA545978C260F0209003D5C214681565 /* PieChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartData.swift; path = Charts/Classes/Data/PieChartData.swift; sourceTree = "<group>"; };
+		AA6DA3BE8EF1851E7DE893A65188DEA1 /* BarLineScatterCandleBubbleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartData.swift; path = Charts/Classes/Data/BarLineScatterCandleBubbleChartData.swift; sourceTree = "<group>"; };
+		AA8EB3E06634B632169BB8FC3D569140 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		AAEF86DD08723870DAB1CEE0CCC5D1DD /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		AB65AABB109DB00B175CE0DA0167C917 /* BarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataSet.swift; path = Charts/Classes/Data/BarChartDataSet.swift; sourceTree = "<group>"; };
+		AF9CFCE9727A571578C706BA0144270D /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
+		B0363FC2A26E1485D4C51A71F3F7290D /* CandleStickChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartView.swift; path = Charts/Classes/Charts/CandleStickChartView.swift; sourceTree = "<group>"; };
+		B04B88D40CBF8039A48DEF3D9353B2B1 /* ChartYAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartYAxisRendererHorizontalBarChart.swift; path = Charts/Classes/Renderers/ChartYAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
+		B20E1261FDDEB102454EE033928D0630 /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		B5E0744EE18BB320C846C5BCA459E40D /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		B84C16427206BCCD95BCCDF23D1C1166 /* ScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartView.swift; path = Charts/Classes/Charts/ScatterChartView.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C42D5CF7C99269E9C45BC72DF81A2504 /* Pods_SkincareDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkincareDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC908032B911181A54217ED7B8F6DE40 /* ChartFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartFillFormatter.swift; path = Charts/Classes/Formatters/ChartFillFormatter.swift; sourceTree = "<group>"; };
+		BD6864DE3C1E5D9C39997DBC073F0373 /* BarChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataProvider.swift; path = Charts/Classes/Interfaces/BarChartDataProvider.swift; sourceTree = "<group>"; };
+		BF65D9D2FAD07C6EC51F56777F44EDC0 /* BubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataProvider.swift; path = Charts/Classes/Interfaces/BubbleChartDataProvider.swift; sourceTree = "<group>"; };
+		C117FB9E7AA9B49F1C22B78AE9BFD841 /* CandleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartData.swift; path = Charts/Classes/Data/CandleChartData.swift; sourceTree = "<group>"; };
+		C18174B5BFA6107480C13C335094150F /* ChartHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartHighlighter.swift; path = Charts/Classes/Highlight/ChartHighlighter.swift; sourceTree = "<group>"; };
+		C3CA7084F2C6C2FDE091BBB177DB99E9 /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
 		C5AB3733FFDC1906FD2869559A7F10F5 /* Pods-SkincareDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkincareDiary.release.xcconfig"; sourceTree = "<group>"; };
-		CA65CD11D61D2667EAAD99F6D8360235 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		C7C034D75A2FF099E24DD7F676CF4AEB /* ChartTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartTransformer.swift; path = Charts/Classes/Utils/ChartTransformer.swift; sourceTree = "<group>"; };
+		CAE007428FB3BEC5916B782CD8D52AD1 /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
+		CC9C1D2B7E7B6A5201A1969BEE933B06 /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
 		CCC22195319CDA5B79964A8D91593039 /* Pods-SkincareDiary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SkincareDiary.modulemap"; sourceTree = "<group>"; };
-		D2344E4F6A34330226D2C7EEBFEDD1A9 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
-		D866378287435BF59EB291B3BFF9460C /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		CD479084100F5806FF76692DEA7A5413 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		CE3DDD6655FF197504AE8B425BE5C603 /* BarChartHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartHighlighter.swift; path = Charts/Classes/Highlight/BarChartHighlighter.swift; sourceTree = "<group>"; };
+		CE4C7144290A0787B932D3F4B0E6D4F6 /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimationEasing.swift; path = Charts/Classes/Animation/ChartAnimationEasing.swift; sourceTree = "<group>"; };
+		CF4E782ADFC6791C8F790FEB9BAC1391 /* ChartXAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartXAxisRenderer.swift; path = Charts/Classes/Renderers/ChartXAxisRenderer.swift; sourceTree = "<group>"; };
+		D3940AD0EDB106E46F9D4A73426BE712 /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D427713691C4903E2B8540C43F6057C5 /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		D6AAB8F901ECF03D12E618917D4B0F99 /* CombinedChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartView.swift; path = Charts/Classes/Charts/CombinedChartView.swift; sourceTree = "<group>"; };
+		D94692791AAF4335C0AEEE52456B78B0 /* RadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartView.swift; path = Charts/Classes/Charts/RadarChartView.swift; sourceTree = "<group>"; };
+		DBFF83AB5FAE7705CD960F2609E14C51 /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
+		DC6FEFAA64E3DA6FF9319D833899CF40 /* ChartYAxisRendererRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartYAxisRendererRadarChart.swift; path = Charts/Classes/Renderers/ChartYAxisRendererRadarChart.swift; sourceTree = "<group>"; };
+		DD8C5855E0EC4BE806A3A2CED85BC26B /* BubbleChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartData.swift; path = Charts/Classes/Data/BubbleChartData.swift; sourceTree = "<group>"; };
+		DDF6BEA3EFF11DEF2550527101BFBC23 /* PieRadarChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarChartViewBase.swift; path = Charts/Classes/Charts/PieRadarChartViewBase.swift; sourceTree = "<group>"; };
+		DE2EF640ED052A8478D2541FB7695860 /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
+		DEEFC7230269CBE91DB3F5304280AC59 /* LineScatterCandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleChartDataSet.swift; path = Charts/Classes/Data/LineScatterCandleChartDataSet.swift; sourceTree = "<group>"; };
+		E0EF6E7F99D71F5C793E9D740AE24D24 /* Charts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Charts-prefix.pch"; sourceTree = "<group>"; };
 		E1B56829ED1AE78E6F56CAECB8D6662B /* Pods-SkincareDiary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkincareDiary-umbrella.h"; sourceTree = "<group>"; };
-		E7464B954B44FB4FF4BBEC544F382E3B /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
-		E87E3C284700DFD0C89BD25B2C04E385 /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
-		EE888FC9CEFD67C86E0C26CC2FAC3C10 /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
-		EF07CFDC73606048A158ABDA4B1922F4 /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
-		F7EB92B9756E91FFEC974DB401CFDAC0 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		E477A6D1C2098D8E5C3438153BD46C23 /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartView.swift; path = Charts/Classes/Charts/HorizontalBarChartView.swift; sourceTree = "<group>"; };
+		E48565B0C8BFB2CAEFFC6979CD5397E3 /* ChartUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartUtils.swift; path = Charts/Classes/Utils/ChartUtils.swift; sourceTree = "<group>"; };
+		E4A216ACABAABC77CF4D5FBA7BC28606 /* ScatterChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataProvider.swift; path = Charts/Classes/Interfaces/ScatterChartDataProvider.swift; sourceTree = "<group>"; };
+		E4BF2F34FC7B9E260EC35FF3DC76BC51 /* BubbleChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartRenderer.swift; path = Charts/Classes/Renderers/BubbleChartRenderer.swift; sourceTree = "<group>"; };
+		E6603C76D922448E3500B5A1F86D0F75 /* HorizontalBarChartHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartHighlighter.swift; path = Charts/Classes/Highlight/HorizontalBarChartHighlighter.swift; sourceTree = "<group>"; };
+		E665C561D1E0E2A26D997ED4F7A66D88 /* BubbleChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartView.swift; path = Charts/Classes/Charts/BubbleChartView.swift; sourceTree = "<group>"; };
+		E84311D0EB87054AF150E93584FDCF94 /* ChartLimitLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartLimitLine.swift; path = Charts/Classes/Components/ChartLimitLine.swift; sourceTree = "<group>"; };
+		EA2909167F08DFF6A5444A299931A0FE /* Charts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Charts.modulemap; sourceTree = "<group>"; };
+		ED7025BEDB1077D331CA7F2D9838A204 /* LineChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartView.swift; path = Charts/Classes/Charts/LineChartView.swift; sourceTree = "<group>"; };
+		F1A2133018A179CA97BBE83C0FB5AB90 /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		F567FCB9706CB956E93E68F4E0CFD461 /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
+		F59D0081F71D3BE6176F5349CB65E478 /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		F7708A9FF886BE76649CA5C1F6AF54D5 /* BubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataSet.swift; path = Charts/Classes/Data/BubbleChartDataSet.swift; sourceTree = "<group>"; };
+		FAAFE687C7C284BCCCE0C2305341DD80 /* LineChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartRenderer.swift; path = Charts/Classes/Renderers/LineChartRenderer.swift; sourceTree = "<group>"; };
+		FB36BC93ACE23290A66BDE5F71076E45 /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		FB770E0097E66E3BB4933EDA3473A681 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		FCECEAE29A78F60BCAA7EF25F99CAF4B /* BarLineChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineChartViewBase.swift; path = Charts/Classes/Charts/BarLineChartViewBase.swift; sourceTree = "<group>"; };
+		FD9EB32D591E54A2B330F3361B91C4A0 /* BarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartData.swift; path = Charts/Classes/Data/BarChartData.swift; sourceTree = "<group>"; };
+		FEED9A67E23D7DAE5A0D1B5572521FBD /* ChartLegendRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartLegendRenderer.swift; path = Charts/Classes/Renderers/ChartLegendRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3FD1B7FB1E76B8E43441C99E3B2809A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028D6B6E2340F2F3F58ACE40CB4EA666 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941E6B4F65D963DB4781F9F46BCAF2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A714DFFE130A70EF4555AD1C6888C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9C7A436E24D0C282E66251E8BCD9548 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,35 +357,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF4ADFE550FA15F0F7E2973F31DF8562 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFCF4C946E6255C6DAC185E73C85C472 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08AC409F436EE37E8F487B8AD7F51E59 /* Pods */ = {
+		241A649E28690BA7A243CD4DA9FECE06 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D598FDA39E28D0354D5B3FC51931879 /* CVCalendar */,
-				116EC488FF03136FBBF5C17A5A478C99 /* KYDrawerController */,
+				EA2909167F08DFF6A5444A299931A0FE /* Charts.modulemap */,
+				699A96357B869F6F2DEE707728904998 /* Charts.xcconfig */,
+				2D80E76165ED2A1A6430B5F5B3C53CA1 /* Charts-dummy.m */,
+				E0EF6E7F99D71F5C793E9D740AE24D24 /* Charts-prefix.pch */,
+				3D25654E2DE5044BAC179C0546F19D25 /* Charts-umbrella.h */,
+				8C34B21E34B5702CD163D9BABEFD072E /* Info.plist */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		116EC488FF03136FBBF5C17A5A478C99 /* KYDrawerController */ = {
-			isa = PBXGroup;
-			children = (
-				6C8B6F1EB0373B34F0436C8EEEF2268B /* KYDrawerController.swift */,
-				0BA82C77D7CE67B0FA9EF697133A6C63 /* KYEmbedDrawerControllerSegue.swift */,
-				3B6B6E19DCC97930A7D880E549FF1314 /* KYEmbedMainControllerSegue.swift */,
-				E1B0738A739093EF386101E4B7B8B276 /* Support Files */,
-			);
-			path = KYDrawerController;
+			name = "Support Files";
+			path = "../Target Support Files/Charts";
 			sourceTree = "<group>";
 		};
 		2B3B3E2778D27AEDDB8CC27AA8ED183D /* Targets Support Files */ = {
@@ -181,49 +382,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4D598FDA39E28D0354D5B3FC51931879 /* CVCalendar */ = {
+		36431EEDF880237EAA80DA3821CF1240 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7DE650B97167F24A96F7B1E27387F01 /* CVAuxiliaryView.swift */,
-				735AE7BB9B9182B7307E2C20CDD29903 /* CVCalendarContentViewController.swift */,
-				8A1C24DBDD2FD2DFFBC4AB93723F4591 /* CVCalendarDayView.swift */,
-				B6F866B750132943324A7112E4733EE5 /* CVCalendarDayViewControlCoordinator.swift */,
-				536FF5650B1AF2621700C2571B0E54B8 /* CVCalendarManager.swift */,
-				EF07CFDC73606048A158ABDA4B1922F4 /* CVCalendarMenuView.swift */,
-				D2344E4F6A34330226D2C7EEBFEDD1A9 /* CVCalendarMenuViewDelegate.swift */,
-				ADA050CBA0FC042894FC604D951904F0 /* CVCalendarMonthContentViewController.swift */,
-				2198BCB103B8DED33F1039051B9AE122 /* CVCalendarMonthView.swift */,
-				363FE6812723C1E5FFA489F2E72C9297 /* CVCalendarTouchController.swift */,
-				2E2F54456040B1365F4964CCE56EEC5F /* CVCalendarView.swift */,
-				2CC5B0CD6F8EBAE2F24AD1C2FE5294AF /* CVCalendarViewAnimator.swift */,
-				0E04B1F710F0BB00E5D16845E85648FC /* CVCalendarViewAnimatorDelegate.swift */,
-				00E31DDB4EE43D589362877428DA19F7 /* CVCalendarViewAppearance.swift */,
-				3681D3B6987C8597FC06336BFEA5804C /* CVCalendarViewAppearanceDelegate.swift */,
-				12EDAFE421DECAA95189BC0A362E5294 /* CVCalendarViewDelegate.swift */,
-				4416E49B24D1093F56A2EA1F67952CAE /* CVCalendarViewPresentationMode.swift */,
-				CA65CD11D61D2667EAAD99F6D8360235 /* CVCalendarWeekContentViewController.swift */,
-				B8FC9E5B58D42A679A48F2A597840E6A /* CVCalendarWeekday.swift */,
-				5D1D5703ECB6F8E4777FF9AFBC8A8AAC /* CVCalendarWeekView.swift */,
-				00657070040551FCE8A00918E9D677FE /* CVDate.swift */,
-				9F40F129B3D110B02E6D3E954C22B80E /* CVRange.swift */,
-				8CFACEEEDE286781F075097103E06872 /* CVScrollDirection.swift */,
-				B37755A513804CF0683129015BD8F4D7 /* CVSelectionType.swift */,
-				E7464B954B44FB4FF4BBEC544F382E3B /* CVSet.swift */,
-				EE888FC9CEFD67C86E0C26CC2FAC3C10 /* CVShape.swift */,
-				93B4365FC66719B20F7D43ED7AD8BF0E /* CVWeekdaySymbolType.swift */,
-				C25DC28F717F4A732D13846DD21627A4 /* Support Files */,
+				9BED224FF92789B02E64DAA6F2F80FB9 /* Charts */,
+				D704A5E783296F5E19CBC236F252B2AA /* CVCalendar */,
+				667C9E034EC276FF724EFF6A98C53567 /* KYDrawerController */,
 			);
-			path = CVCalendar;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		68A4C8C2DBC8C24E7266D21F105B3655 /* Products */ = {
+		6492CC0C16ED1AFD876A9828A983BD22 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				893A891EF6ADF0B3124002CA51154BE9 /* CVCalendar.framework */,
-				509AD4015FDF4A221BAB51375AB38AAA /* KYDrawerController.framework */,
-				C42D5CF7C99269E9C45BC72DF81A2504 /* Pods_SkincareDiary.framework */,
+				6150A9BC033D5293F851658FFC2FE556 /* CVCalendar.modulemap */,
+				87EA4A2BD8B0B9A7730FDED7E246B125 /* CVCalendar.xcconfig */,
+				953A1B0C96C30AC1C6BB45156577106D /* CVCalendar-dummy.m */,
+				6A389804251FB5B45DF1A714DD0A6CE4 /* CVCalendar-prefix.pch */,
+				CAE007428FB3BEC5916B782CD8D52AD1 /* CVCalendar-umbrella.h */,
+				3E8FA34469C68DE26BE913042460F2B0 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/CVCalendar";
+			sourceTree = "<group>";
+		};
+		667C9E034EC276FF724EFF6A98C53567 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				F59D0081F71D3BE6176F5349CB65E478 /* KYDrawerController.swift */,
+				CD479084100F5806FF76692DEA7A5413 /* KYEmbedDrawerControllerSegue.swift */,
+				AA12BD77DEA6BC1DF6A8F039681D2E88 /* KYEmbedMainControllerSegue.swift */,
+				895DA4D3C97C34022C081EE68F6454AF /* Support Files */,
+			);
+			path = KYDrawerController;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -231,10 +422,123 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				08AC409F436EE37E8F487B8AD7F51E59 /* Pods */,
-				68A4C8C2DBC8C24E7266D21F105B3655 /* Products */,
+				36431EEDF880237EAA80DA3821CF1240 /* Pods */,
+				E45DC2FA546DBE5D0F960155F2193CBA /* Products */,
 				2B3B3E2778D27AEDDB8CC27AA8ED183D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		895DA4D3C97C34022C081EE68F6454AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09D103FB624BA59FEDC5C342E842CDE0 /* Info.plist */,
+				06050A7BA8E4A63754E6C6BA57AC783D /* KYDrawerController.modulemap */,
+				FB36BC93ACE23290A66BDE5F71076E45 /* KYDrawerController.xcconfig */,
+				353C08284822938CA960B2FFEF3A353A /* KYDrawerController-dummy.m */,
+				3244E712DE3049A93A2FA8EC50938248 /* KYDrawerController-prefix.pch */,
+				A1F83CE027EC117CD8CBD0AD26B22D28 /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		9BED224FF92789B02E64DAA6F2F80FB9 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				FD9EB32D591E54A2B330F3361B91C4A0 /* BarChartData.swift */,
+				6D4B1CE2E362AF83EEDF1818D7527600 /* BarChartDataEntry.swift */,
+				BD6864DE3C1E5D9C39997DBC073F0373 /* BarChartDataProvider.swift */,
+				AB65AABB109DB00B175CE0DA0167C917 /* BarChartDataSet.swift */,
+				CE3DDD6655FF197504AE8B425BE5C603 /* BarChartHighlighter.swift */,
+				3865D8AEAB4C0192CD3584EEC3F55270 /* BarChartRenderer.swift */,
+				5BB7392B03FAA7FBB44AA0B8ABA8779E /* BarChartView.swift */,
+				FCECEAE29A78F60BCAA7EF25F99CAF4B /* BarLineChartViewBase.swift */,
+				AA6DA3BE8EF1851E7DE893A65188DEA1 /* BarLineScatterCandleBubbleChartData.swift */,
+				8EA3AA59EEAB35690205844D4C58D073 /* BarLineScatterCandleBubbleChartDataProvider.swift */,
+				046659FB654897E6EF41E6F540E8C28F /* BarLineScatterCandleBubbleChartDataSet.swift */,
+				DD8C5855E0EC4BE806A3A2CED85BC26B /* BubbleChartData.swift */,
+				6524EE599D1FB82198FA2797ED641B23 /* BubbleChartDataEntry.swift */,
+				BF65D9D2FAD07C6EC51F56777F44EDC0 /* BubbleChartDataProvider.swift */,
+				F7708A9FF886BE76649CA5C1F6AF54D5 /* BubbleChartDataSet.swift */,
+				E4BF2F34FC7B9E260EC35FF3DC76BC51 /* BubbleChartRenderer.swift */,
+				E665C561D1E0E2A26D997ED4F7A66D88 /* BubbleChartView.swift */,
+				C117FB9E7AA9B49F1C22B78AE9BFD841 /* CandleChartData.swift */,
+				30EE892FDD5D984327D34C03EBA6144B /* CandleChartDataEntry.swift */,
+				88032AA3DBC0953279DC5AF7E485F737 /* CandleChartDataProvider.swift */,
+				9703D26FC2D93EE7737AAC7DE9F5623B /* CandleChartDataSet.swift */,
+				A51A114DD7D695463EBDF2B07FC76FD2 /* CandleStickChartRenderer.swift */,
+				B0363FC2A26E1485D4C51A71F3F7290D /* CandleStickChartView.swift */,
+				CE4C7144290A0787B932D3F4B0E6D4F6 /* ChartAnimationEasing.swift */,
+				8F2D0236F69C682D60B6564E060D30A6 /* ChartAnimator.swift */,
+				7CB67596B74EEB06A56F7EBE2FB97020 /* ChartAxisBase.swift */,
+				3070918FAE5B2BA63F48516261CC5B3D /* ChartAxisRendererBase.swift */,
+				90A05698DDF50825DD36C6ABCF743A96 /* ChartColorTemplates.swift */,
+				9C2E9DD793421227471DCAC55BCE1E5E /* ChartComponentBase.swift */,
+				42D99FA3AD752D1990A2680AC7CF1DE9 /* ChartData.swift */,
+				9841B0DDB47B687CB8DBD9734C407D93 /* ChartDataApproximatorFilter.swift */,
+				7F9B2695B174286ECB8B61451ED0B937 /* ChartDataBaseFilter.swift */,
+				A69B20178E0CA760E3A1BD6D5045817F /* ChartDataEntry.swift */,
+				74B3F2B76B1B5F6646C8FDFAF9D29CE4 /* ChartDataProvider.swift */,
+				60653F7EBFE5CA2A37840992D576C693 /* ChartDataRendererBase.swift */,
+				73DB08892F8716C49E330C89675C21D1 /* ChartDataSet.swift */,
+				1D0B15C30CA629B1446248F9D141B852 /* ChartDefaultXAxisValueFormatter.swift */,
+				BC908032B911181A54217ED7B8F6DE40 /* ChartFillFormatter.swift */,
+				88A75F22FE54522F0372A0B2730F9AAD /* ChartHighlight.swift */,
+				C18174B5BFA6107480C13C335094150F /* ChartHighlighter.swift */,
+				2CF75179174A9DC2A53951A66E6B8D94 /* ChartLegend.swift */,
+				FEED9A67E23D7DAE5A0D1B5572521FBD /* ChartLegendRenderer.swift */,
+				E84311D0EB87054AF150E93584FDCF94 /* ChartLimitLine.swift */,
+				87732B757657EAC0FBE41A3050E08398 /* ChartMarker.swift */,
+				2843F1AC2781ACE9BBF80F4E999D0304 /* ChartRange.swift */,
+				60D039BAE8933960089CFC6B094F20CF /* ChartRendererBase.swift */,
+				232F878773A5445F738E1AFEE720F3EA /* ChartSelectionDetail.swift */,
+				C7C034D75A2FF099E24DD7F676CF4AEB /* ChartTransformer.swift */,
+				5D912E4B03627B160384AD7F28F35BFC /* ChartTransformerHorizontalBarChart.swift */,
+				E48565B0C8BFB2CAEFFC6979CD5397E3 /* ChartUtils.swift */,
+				4AB72E42A67A2DAD185DDA6B0BE52B18 /* ChartViewBase.swift */,
+				A802EC8DCBF21E1C0E6E3551ACDA7968 /* ChartViewPortHandler.swift */,
+				6E58CC3FF2FEAE3B66FF8F80894F24B5 /* ChartXAxis.swift */,
+				CF4E782ADFC6791C8F790FEB9BAC1391 /* ChartXAxisRenderer.swift */,
+				479890B72AACFAF86E25B21110B1B7C9 /* ChartXAxisRendererBarChart.swift */,
+				9634E594D353282A78B1C58BAC040830 /* ChartXAxisRendererHorizontalBarChart.swift */,
+				974D38B3B205F6AAC877916586D76605 /* ChartXAxisRendererRadarChart.swift */,
+				3CB5E90F488B9CE996F7683DE38F006D /* ChartXAxisValueFormatter.swift */,
+				17F76E9D2DA91A3C070B2BF43D6CCFE3 /* ChartYAxis.swift */,
+				4DA840756C6D3085728633392B4D4862 /* ChartYAxisRenderer.swift */,
+				B04B88D40CBF8039A48DEF3D9353B2B1 /* ChartYAxisRendererHorizontalBarChart.swift */,
+				DC6FEFAA64E3DA6FF9319D833899CF40 /* ChartYAxisRendererRadarChart.swift */,
+				26815277EB8C80559C2BDB0122CD771B /* CombinedChartData.swift */,
+				2D6AE5FFCB7CCE06C245E6CFA9FF495B /* CombinedChartRenderer.swift */,
+				D6AAB8F901ECF03D12E618917D4B0F99 /* CombinedChartView.swift */,
+				2DB8837C6724384AC7005AEABBE74F8B /* CombinedHighlighter.swift */,
+				E6603C76D922448E3500B5A1F86D0F75 /* HorizontalBarChartHighlighter.swift */,
+				10C55E07F4BF2F79B32CDAF4FDEED414 /* HorizontalBarChartRenderer.swift */,
+				E477A6D1C2098D8E5C3438153BD46C23 /* HorizontalBarChartView.swift */,
+				5479BD16C4F26725EA1263A534E7222C /* LineChartData.swift */,
+				4A9346B5E13566701DFADC4053C45AB3 /* LineChartDataProvider.swift */,
+				317062D67E811BEFB1EDA72FA491C384 /* LineChartDataSet.swift */,
+				FAAFE687C7C284BCCCE0C2305341DD80 /* LineChartRenderer.swift */,
+				ED7025BEDB1077D331CA7F2D9838A204 /* LineChartView.swift */,
+				8246717E09A2F57D3BC77F2E68988AB5 /* LineRadarChartDataSet.swift */,
+				DEEFC7230269CBE91DB3F5304280AC59 /* LineScatterCandleChartDataSet.swift */,
+				671B071C0B1A34061A01CA0D04D6E689 /* LineScatterCandleRadarChartRenderer.swift */,
+				AA545978C260F0209003D5C214681565 /* PieChartData.swift */,
+				4815CBC3165436121A717116000E7F6D /* PieChartDataSet.swift */,
+				5E485A532A60F1413CA88FF2E4289F92 /* PieChartRenderer.swift */,
+				3125E6305FA6BA80F5D9C106771D59D2 /* PieChartView.swift */,
+				DDF6BEA3EFF11DEF2550527101BFBC23 /* PieRadarChartViewBase.swift */,
+				758DEE680E609F126D6A173B8AB59A53 /* RadarChartData.swift */,
+				0C157AF32E290D85C3E10440BEDD1DD3 /* RadarChartDataSet.swift */,
+				815DB1837C62ED8FE83457CED5B435A8 /* RadarChartRenderer.swift */,
+				D94692791AAF4335C0AEEE52456B78B0 /* RadarChartView.swift */,
+				4861DB7D1621F31A51F101C835E389CE /* ScatterChartData.swift */,
+				E4A216ACABAABC77CF4D5FBA7BC28606 /* ScatterChartDataProvider.swift */,
+				6D01EE2774BE992BA8168AEB1353101C /* ScatterChartDataSet.swift */,
+				11BC64D4DA9D464AE079CEF320631F18 /* ScatterChartRenderer.swift */,
+				B84C16427206BCCD95BCCDF23D1C1166 /* ScatterChartView.swift */,
+				241A649E28690BA7A243CD4DA9FECE06 /* Support Files */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -253,32 +557,50 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C25DC28F717F4A732D13846DD21627A4 /* Support Files */ = {
+		D704A5E783296F5E19CBC236F252B2AA /* CVCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				8272E171E6CB65BCD08E8AC22FD13ADC /* CVCalendar.modulemap */,
-				478D6C67837B920BC70EAD75FD698A43 /* CVCalendar.xcconfig */,
-				E87E3C284700DFD0C89BD25B2C04E385 /* CVCalendar-dummy.m */,
-				27AAF7515AFBDF22569ED8DB355B2841 /* CVCalendar-prefix.pch */,
-				48041A075EBA5EC50E19A5826F9D945A /* CVCalendar-umbrella.h */,
-				980D232B71882B51FD97EDFD0392D725 /* Info.plist */,
+				6192C428927F25B7501F266FA088EC33 /* CVAuxiliaryView.swift */,
+				5AE67AE6986DBA02405A3F4FE32A0D7E /* CVCalendarContentViewController.swift */,
+				379A177D9D2CCEE193E3CB863046473F /* CVCalendarDayView.swift */,
+				11774C106A81F62EA93682CCE4692BD1 /* CVCalendarDayViewControlCoordinator.swift */,
+				B5E0744EE18BB320C846C5BCA459E40D /* CVCalendarManager.swift */,
+				AAEF86DD08723870DAB1CEE0CCC5D1DD /* CVCalendarMenuView.swift */,
+				360F94E648449A9542D88B8CEBF44793 /* CVCalendarMenuViewDelegate.swift */,
+				1E67B96185D33D2321DA5810B38FD7DB /* CVCalendarMonthContentViewController.swift */,
+				2E14FD9C8381FC999A9B38928931A9B0 /* CVCalendarMonthView.swift */,
+				AA8EB3E06634B632169BB8FC3D569140 /* CVCalendarTouchController.swift */,
+				3BD012449D74CF74650B8347A6C10D33 /* CVCalendarView.swift */,
+				FB770E0097E66E3BB4933EDA3473A681 /* CVCalendarViewAnimator.swift */,
+				59B500DCA35D659B0678D733B4EA2ABD /* CVCalendarViewAnimatorDelegate.swift */,
+				D427713691C4903E2B8540C43F6057C5 /* CVCalendarViewAppearance.swift */,
+				690D8F05860B07CE0DF6ACCFF11F300B /* CVCalendarViewAppearanceDelegate.swift */,
+				09901B93918A3504D64EF2B205E161E7 /* CVCalendarViewDelegate.swift */,
+				B20E1261FDDEB102454EE033928D0630 /* CVCalendarViewPresentationMode.swift */,
+				CC9C1D2B7E7B6A5201A1969BEE933B06 /* CVCalendarWeekContentViewController.swift */,
+				C3CA7084F2C6C2FDE091BBB177DB99E9 /* CVCalendarWeekday.swift */,
+				F1A2133018A179CA97BBE83C0FB5AB90 /* CVCalendarWeekView.swift */,
+				DBFF83AB5FAE7705CD960F2609E14C51 /* CVDate.swift */,
+				83D41DC02FC17329B4252EF216DB01FE /* CVRange.swift */,
+				AF9CFCE9727A571578C706BA0144270D /* CVScrollDirection.swift */,
+				DE2EF640ED052A8478D2541FB7695860 /* CVSelectionType.swift */,
+				78D1A56D0A52A8904DB89F0D673A3877 /* CVSet.swift */,
+				F567FCB9706CB956E93E68F4E0CFD461 /* CVShape.swift */,
+				733CB48AB575401CE425FF4DCFEDED55 /* CVWeekdaySymbolType.swift */,
+				6492CC0C16ED1AFD876A9828A983BD22 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CVCalendar";
+			path = CVCalendar;
 			sourceTree = "<group>";
 		};
-		E1B0738A739093EF386101E4B7B8B276 /* Support Files */ = {
+		E45DC2FA546DBE5D0F960155F2193CBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7BA43E6816CD935D8F3A16E6594E077E /* Info.plist */,
-				F7EB92B9756E91FFEC974DB401CFDAC0 /* KYDrawerController.modulemap */,
-				D866378287435BF59EB291B3BFF9460C /* KYDrawerController.xcconfig */,
-				32BB980454816D34266530157AC3E7FC /* KYDrawerController-dummy.m */,
-				203C99FA1EB8F9628C3A1CB5983C64AA /* KYDrawerController-prefix.pch */,
-				9BD85DDDE4F4C9A2205C8480F1F0803C /* KYDrawerController-umbrella.h */,
+				5BED97489DF5D0C3E24FCAF8C90AC88A /* Charts.framework */,
+				D3940AD0EDB106E46F9D4A73426BE712 /* CVCalendar.framework */,
+				5BEB3A307F7E0C495BE5EBF1B986BD13 /* KYDrawerController.framework */,
+				18D75B8F5BF6511550D0E71A0B9C9454 /* Pods_SkincareDiary.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KYDrawerController";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EBFE0FA2BB396E150B27B61503478B0D /* Pods-SkincareDiary */ = {
@@ -302,11 +624,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		853D319C6E0FF1E907A9C00FD32AF9E3 /* Headers */ = {
+		0C2BF141EC94906E03C331A6CDFEA0A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D601D7BB69C668C4980A504B3A5B2FA3 /* Pods-SkincareDiary-umbrella.h in Headers */,
+				E0F375F31617361E01EC5194A3564F20 /* Charts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F3A4F93CA55D8669B574799176A075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1D48220F7C01FF59A36DA58C8780CF /* Pods-SkincareDiary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +659,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		24090FBCEF7A50AE384678B5C071804B /* Charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B286D4F010F49735E0C900BACC2969B9 /* Build configuration list for PBXNativeTarget "Charts" */;
+			buildPhases = (
+				5049D5DFDB6F219FA4F5059BB74383B7 /* Sources */,
+				941E6B4F65D963DB4781F9F46BCAF2B2 /* Frameworks */,
+				0C2BF141EC94906E03C331A6CDFEA0A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Charts;
+			productName = Charts;
+			productReference = 5BED97489DF5D0C3E24FCAF8C90AC88A /* Charts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71BFA0DE0425E600548FB1E18F998273 /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
@@ -343,26 +690,7 @@
 			);
 			name = KYDrawerController;
 			productName = KYDrawerController;
-			productReference = 509AD4015FDF4A221BAB51375AB38AAA /* KYDrawerController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		68BCF9E34A6C57EAF47CEA1CF7B154CF /* Pods-SkincareDiary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40E300570D4A24B9D95BA28E1D4BD32A /* Build configuration list for PBXNativeTarget "Pods-SkincareDiary" */;
-			buildPhases = (
-				338983CC7261500786DF0C5526375AD4 /* Sources */,
-				EF4ADFE550FA15F0F7E2973F31DF8562 /* Frameworks */,
-				853D319C6E0FF1E907A9C00FD32AF9E3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FCFC8F3FA0CCEE5B850BE60C90A0A9E9 /* PBXTargetDependency */,
-				76A079B8F012F63F90CF3BBD6BAD8208 /* PBXTargetDependency */,
-			);
-			name = "Pods-SkincareDiary";
-			productName = "Pods-SkincareDiary";
-			productReference = C42D5CF7C99269E9C45BC72DF81A2504 /* Pods_SkincareDiary.framework */;
+			productReference = 5BEB3A307F7E0C495BE5EBF1B986BD13 /* KYDrawerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA14B622689766F6B8A4F42FD9DE552F /* CVCalendar */ = {
@@ -379,7 +707,27 @@
 			);
 			name = CVCalendar;
 			productName = CVCalendar;
-			productReference = 893A891EF6ADF0B3124002CA51154BE9 /* CVCalendar.framework */;
+			productReference = D3940AD0EDB106E46F9D4A73426BE712 /* CVCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0673A8165D0F99FDD278038EED4B2B5 /* Pods-SkincareDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26D9A0AB3B1582F33D6C136A4E56D8F /* Build configuration list for PBXNativeTarget "Pods-SkincareDiary" */;
+			buildPhases = (
+				8B48F53CFEFEBEF383DDEA5EF5F7B020 /* Sources */,
+				3FD1B7FB1E76B8E43441C99E3B2809A0 /* Frameworks */,
+				16F3A4F93CA55D8669B574799176A075 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01EE312D38FE46D539E99153778E36B0 /* PBXTargetDependency */,
+				A3230E69D5585E714D772E85B28BE691 /* PBXTargetDependency */,
+				465C24DE9D1F5E86236B2F7AF224EDE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SkincareDiary";
+			productName = "Pods-SkincareDiary";
+			productReference = 18D75B8F5BF6511550D0E71A0B9C9454 /* Pods_SkincareDiary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -399,23 +747,123 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 68A4C8C2DBC8C24E7266D21F105B3655 /* Products */;
+			productRefGroup = E45DC2FA546DBE5D0F960155F2193CBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				24090FBCEF7A50AE384678B5C071804B /* Charts */,
 				BA14B622689766F6B8A4F42FD9DE552F /* CVCalendar */,
 				43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */,
-				68BCF9E34A6C57EAF47CEA1CF7B154CF /* Pods-SkincareDiary */,
+				F0673A8165D0F99FDD278038EED4B2B5 /* Pods-SkincareDiary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		338983CC7261500786DF0C5526375AD4 /* Sources */ = {
+		5049D5DFDB6F219FA4F5059BB74383B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43D38950E53365B6B6771253DAA7A0A /* Pods-SkincareDiary-dummy.m in Sources */,
+				DB9262E9F12A26F3B6F9EF4D4BCCE15B /* BarChartData.swift in Sources */,
+				60690474E28B8AF692726E7AD691A91A /* BarChartDataEntry.swift in Sources */,
+				86AB103EA0B9F1071500AEC6BAEB9CD6 /* BarChartDataProvider.swift in Sources */,
+				6B95D17FCABDEF7B9121F07B88001E83 /* BarChartDataSet.swift in Sources */,
+				4D91212DF0613EC021BB77AFF14C616F /* BarChartHighlighter.swift in Sources */,
+				31CD68A682C3EF6E0546C64FD439985B /* BarChartRenderer.swift in Sources */,
+				23A1FC607C1E2FC533546541D604A026 /* BarChartView.swift in Sources */,
+				F710622B4958B15999054D1844A32F3E /* BarLineChartViewBase.swift in Sources */,
+				0A83E19CE99F2C45B102A861CBA0C725 /* BarLineScatterCandleBubbleChartData.swift in Sources */,
+				55C74A9DCA3EFDC70AE236C201ED3822 /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */,
+				16334C1D5F94D0CD4942FF86E3DF657C /* BarLineScatterCandleBubbleChartDataSet.swift in Sources */,
+				170D718E2C820505366A2E47D84FF2EB /* BubbleChartData.swift in Sources */,
+				61A6BB49C31808C646748DD6A7FFB744 /* BubbleChartDataEntry.swift in Sources */,
+				F911CE29F37DADA80C99E1B152BE31CC /* BubbleChartDataProvider.swift in Sources */,
+				A2AE581715AFABB031386AF04641D965 /* BubbleChartDataSet.swift in Sources */,
+				594C831C21FEEF58C896836CB5E94AED /* BubbleChartRenderer.swift in Sources */,
+				A12AB5AC0B0F4006E6628C6A51CF7C15 /* BubbleChartView.swift in Sources */,
+				D9E45428263F4A470F66E7F4E5352EA7 /* CandleChartData.swift in Sources */,
+				369469F3DEDDC28CC80BD1AC5C56DE0A /* CandleChartDataEntry.swift in Sources */,
+				5CF7D908E8B9ED1B9862C5846DE267ED /* CandleChartDataProvider.swift in Sources */,
+				CAE6C492059573BFBB98431443D3C7BE /* CandleChartDataSet.swift in Sources */,
+				43850DEC627B002A0E5BCF76238B530F /* CandleStickChartRenderer.swift in Sources */,
+				7B408E4BE1C94F704621234F5CB68364 /* CandleStickChartView.swift in Sources */,
+				E3EFDADABB2A38CEB1383B01B7C854B0 /* ChartAnimationEasing.swift in Sources */,
+				6A7246830C954C7DD214B13D602C4431 /* ChartAnimator.swift in Sources */,
+				B58CFDF9B9FC19AB93E993B58A893408 /* ChartAxisBase.swift in Sources */,
+				847C0E7301A81307DFD4CEC40F774875 /* ChartAxisRendererBase.swift in Sources */,
+				2464CE28D97360AADAA68EFDCA219E4E /* ChartColorTemplates.swift in Sources */,
+				8C6FC3984C415467EA4D8C7FEF52CA07 /* ChartComponentBase.swift in Sources */,
+				72FD712C15D549F36D61DBE4C077C269 /* ChartData.swift in Sources */,
+				7FC6079C6CCF31084E4386C263238E79 /* ChartDataApproximatorFilter.swift in Sources */,
+				3A09D41D070EB9F3BC25BCB6A071A5D1 /* ChartDataBaseFilter.swift in Sources */,
+				9C30CC3E02175D8D9524450D77B26D65 /* ChartDataEntry.swift in Sources */,
+				A47424B67274516CCA60099B0FC8F5D2 /* ChartDataProvider.swift in Sources */,
+				72DCE2C6171AACC80B9144464099DD3E /* ChartDataRendererBase.swift in Sources */,
+				31DA4F22016DE1B5F4C1DDB545C2853D /* ChartDataSet.swift in Sources */,
+				C5CA261697BFD6CD0CDB11268DC9527A /* ChartDefaultXAxisValueFormatter.swift in Sources */,
+				AAC6F0D0FBF3FE6E3A9C411F5F6CDEFD /* ChartFillFormatter.swift in Sources */,
+				A22394659479706926D7C3343749FB89 /* ChartHighlight.swift in Sources */,
+				F3D1C20621E7C51F7D9D9CBF12A80E55 /* ChartHighlighter.swift in Sources */,
+				71F9CE3D34C904D74029BA0DEC8909B0 /* ChartLegend.swift in Sources */,
+				B8E58DD2E103ED4104B7AE76605FDFEE /* ChartLegendRenderer.swift in Sources */,
+				EF62E0011B10F23C3E83377254FB17FF /* ChartLimitLine.swift in Sources */,
+				C7300C382AF16486F55EF73FAA44DE04 /* ChartMarker.swift in Sources */,
+				61DBF5391F89F239F66EF10EA502F779 /* ChartRange.swift in Sources */,
+				498C67CE8189A6FC8F03AF7AD6187D1C /* ChartRendererBase.swift in Sources */,
+				B37449D93482C2CB1915AA70BDDCE898 /* Charts-dummy.m in Sources */,
+				2E276645BF9AB2A8FAD36A2524B587D4 /* ChartSelectionDetail.swift in Sources */,
+				6EA10FD5F5ABFB5AF4F480DC4BDD316C /* ChartTransformer.swift in Sources */,
+				71175B7D9BD12849D5CE95CAC4DD12B0 /* ChartTransformerHorizontalBarChart.swift in Sources */,
+				B6851020CADC71D0F61AC748A4919782 /* ChartUtils.swift in Sources */,
+				6840940451CC2AEBB45E7B998A8CC290 /* ChartViewBase.swift in Sources */,
+				9A5E0A7ABD6915B934037AF1C0BBD8BC /* ChartViewPortHandler.swift in Sources */,
+				D8EAC594DE9D2D9209F93ED98627A9BD /* ChartXAxis.swift in Sources */,
+				77498165053D5FF9DEBF5525CE609CFF /* ChartXAxisRenderer.swift in Sources */,
+				8297FEC974CFB598B73B05B3E5F2E8AB /* ChartXAxisRendererBarChart.swift in Sources */,
+				54AEF1669C2EAC0D24C353AD5E488438 /* ChartXAxisRendererHorizontalBarChart.swift in Sources */,
+				6369E75ABD1E68C235FA23399FEF7D89 /* ChartXAxisRendererRadarChart.swift in Sources */,
+				F76A9A10BD70CBD4DF35CE9B1B912680 /* ChartXAxisValueFormatter.swift in Sources */,
+				D0E8A7941E7C5DC1A45C374FB7D59FBD /* ChartYAxis.swift in Sources */,
+				AC1B0AB4620738559F28CB94E229E5E9 /* ChartYAxisRenderer.swift in Sources */,
+				3FE74A2F87C5FF3F37AD5E92584BE498 /* ChartYAxisRendererHorizontalBarChart.swift in Sources */,
+				67F31494CAF07AA2E6BFF57A2B2DFCC4 /* ChartYAxisRendererRadarChart.swift in Sources */,
+				7A287166C1E75245863E1E7762893281 /* CombinedChartData.swift in Sources */,
+				19999CFA27C15EECE49F2A6D5CCCAFB3 /* CombinedChartRenderer.swift in Sources */,
+				7ED26186F3A392830F568AF713FCEFAF /* CombinedChartView.swift in Sources */,
+				ACE491E6D58C1F971F61BEB26B22CB81 /* CombinedHighlighter.swift in Sources */,
+				91E91F63B61CCDD9386963F7212267DA /* HorizontalBarChartHighlighter.swift in Sources */,
+				8F76150D196C250B506F92B50B729B20 /* HorizontalBarChartRenderer.swift in Sources */,
+				75407A0C4D39D32DB48A10F1E473CCF8 /* HorizontalBarChartView.swift in Sources */,
+				DE2CFAE73481B546F8341B7B54057E5C /* LineChartData.swift in Sources */,
+				68F3CEDCAD62CBA3815C5281692177B7 /* LineChartDataProvider.swift in Sources */,
+				91B755D794F581FCA5D1ECCCA85EFC80 /* LineChartDataSet.swift in Sources */,
+				3D18F5F2395946ABE1B32650EAFFFA2A /* LineChartRenderer.swift in Sources */,
+				58F0912C6B95A44500256EC647567C59 /* LineChartView.swift in Sources */,
+				CAAF559EBF09B59963E31364073A092D /* LineRadarChartDataSet.swift in Sources */,
+				420BF66640FFA45D2309D4E3A9B63826 /* LineScatterCandleChartDataSet.swift in Sources */,
+				2BEBCA7927B242DD849DFBB094621644 /* LineScatterCandleRadarChartRenderer.swift in Sources */,
+				E5296467AC2501440C0B1AAE174422A3 /* PieChartData.swift in Sources */,
+				5A6F89BA0EF4065362DBE1C6A8736821 /* PieChartDataSet.swift in Sources */,
+				4BA46464BBD6ED358994C21218FB1024 /* PieChartRenderer.swift in Sources */,
+				6B1DCD7C8034CE487064073CB005DC5A /* PieChartView.swift in Sources */,
+				20006E49835266BDF8F7B279B78A1DF2 /* PieRadarChartViewBase.swift in Sources */,
+				E9EA0CA9EADF2F868B26FFAA3CD79081 /* RadarChartData.swift in Sources */,
+				B151B7F59127B121F2E739F2411C9C53 /* RadarChartDataSet.swift in Sources */,
+				C340A6CBEE9BCBF3CC8002A678C6CDE4 /* RadarChartRenderer.swift in Sources */,
+				E216E39E39A2C0B1BC1B223F8EF319A6 /* RadarChartView.swift in Sources */,
+				19650FE6AF5850ACC980DB2ED00C50C3 /* ScatterChartData.swift in Sources */,
+				AADAFDF77D885CC60D891F33509D15BE /* ScatterChartDataProvider.swift in Sources */,
+				60F5FCA13FABEC1FBD835D197CD99BFC /* ScatterChartDataSet.swift in Sources */,
+				E7B17F3DD8CD34748DAFDC466FE1D0A4 /* ScatterChartRenderer.swift in Sources */,
+				B0D00C906B07C8911CE6744C6721929E /* ScatterChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B48F53CFEFEBEF383DDEA5EF5F7B020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8CE896E678CD948EC18D91DAB42F08 /* Pods-SkincareDiary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,24 +916,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76A079B8F012F63F90CF3BBD6BAD8208 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KYDrawerController;
-			target = 43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */;
-			targetProxy = F8B5597140C77DBAFE80242D02CE3112 /* PBXContainerItemProxy */;
-		};
-		FCFC8F3FA0CCEE5B850BE60C90A0A9E9 /* PBXTargetDependency */ = {
+		01EE312D38FE46D539E99153778E36B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CVCalendar;
 			target = BA14B622689766F6B8A4F42FD9DE552F /* CVCalendar */;
-			targetProxy = E69310755183C572E7632ED43C0C9493 /* PBXContainerItemProxy */;
+			targetProxy = 3758482BD57DC2821B20E421A73C6539 /* PBXContainerItemProxy */;
+		};
+		465C24DE9D1F5E86236B2F7AF224EDE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 43F633B3903DE39E43C0B694E1C46B06 /* KYDrawerController */;
+			targetProxy = 302933D02FDE90F428EEEFB2A12E5D2C /* PBXContainerItemProxy */;
+		};
+		A3230E69D5585E714D772E85B28BE691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			target = 24090FBCEF7A50AE384678B5C071804B /* Charts */;
+			targetProxy = 153D4A76254DE6E69E1808BEF766DB66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		29222ACAD4B4F20E33C98AA569DC029A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 478D6C67837B920BC70EAD75FD698A43 /* CVCalendar.xcconfig */;
+			baseConfigurationReference = 87EA4A2BD8B0B9A7730FDED7E246B125 /* CVCalendar.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,9 +964,9 @@
 			};
 			name = Release;
 		};
-		3B48CFB016FA64E2FE70CE584895DCE9 /* Release */ = {
+		34C5BC0796893D11E547CE9F2F161408 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5AB3733FFDC1906FD2869559A7F10F5 /* Pods-SkincareDiary.release.xcconfig */;
+			baseConfigurationReference = 699A96357B869F6F2DEE707728904998 /* Charts.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -521,17 +975,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SkincareDiary/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Charts/Charts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Charts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SkincareDiary/Pods-SkincareDiary.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SkincareDiary;
+				PRODUCT_NAME = Charts;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,7 +993,7 @@
 		};
 		508DD9654F9EE423BC01F72732A6401E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D866378287435BF59EB291B3BFF9460C /* KYDrawerController.xcconfig */;
+			baseConfigurationReference = FB36BC93ACE23290A66BDE5F71076E45 /* KYDrawerController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -641,9 +1092,39 @@
 			};
 			name = Release;
 		};
+		7A799ED8B5AFB8530511113264CFA531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AB3733FFDC1906FD2869559A7F10F5 /* Pods-SkincareDiary.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SkincareDiary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkincareDiary/Pods-SkincareDiary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SkincareDiary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C83B75A11C21C151006BBE339A3C8F96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D866378287435BF59EB291B3BFF9460C /* KYDrawerController.xcconfig */;
+			baseConfigurationReference = FB36BC93ACE23290A66BDE5F71076E45 /* KYDrawerController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -668,9 +1149,37 @@
 			};
 			name = Release;
 		};
+		CFAE290D9F8EEE7DB5BCC3610B3067DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699A96357B869F6F2DEE707728904998 /* Charts.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Charts/Charts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Charts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Charts/Charts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Charts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D0C72D48F529A38448CFD5A79CFAC91B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 478D6C67837B920BC70EAD75FD698A43 /* CVCalendar.xcconfig */;
+			baseConfigurationReference = 87EA4A2BD8B0B9A7730FDED7E246B125 /* CVCalendar.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -696,7 +1205,7 @@
 			};
 			name = Debug;
 		};
-		F4EC830C5C7A39DB0CF5A40BCAB7822D /* Debug */ = {
+		E5BF90DB1F22A2DE396DE37C10951ED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 597FAC47ECA306DBD50E2065DF9507FC /* Pods-SkincareDiary.debug.xcconfig */;
 			buildSettings = {
@@ -739,20 +1248,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40E300570D4A24B9D95BA28E1D4BD32A /* Build configuration list for PBXNativeTarget "Pods-SkincareDiary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4EC830C5C7A39DB0CF5A40BCAB7822D /* Debug */,
-				3B48CFB016FA64E2FE70CE584895DCE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		71BFA0DE0425E600548FB1E18F998273 /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				508DD9654F9EE423BC01F72732A6401E /* Debug */,
 				C83B75A11C21C151006BBE339A3C8F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B286D4F010F49735E0C900BACC2969B9 /* Build configuration list for PBXNativeTarget "Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAE290D9F8EEE7DB5BCC3610B3067DD /* Debug */,
+				34C5BC0796893D11E547CE9F2F161408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26D9A0AB3B1582F33D6C136A4E56D8F /* Build configuration list for PBXNativeTarget "Pods-SkincareDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BF90DB1F22A2DE396DE37C10951ED4 /* Debug */,
+				7A799ED8B5AFB8530511113264CFA531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
