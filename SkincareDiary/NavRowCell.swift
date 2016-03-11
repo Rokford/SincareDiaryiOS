@@ -11,4 +11,15 @@ import UIKit
 class NavRowCell: UITableViewCell {
 
     @IBOutlet var titleLabel: UILabel!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
